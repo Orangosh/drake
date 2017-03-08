@@ -1,24 +1,21 @@
-; our base data directory
-BASE=/mnt/data/datafiles/testdir
-IN := /mnt/data/datafiles/579-Pa/579-Pa_merlin/bbmap_output.sam
-REF := /mnt/data/datafiles/genes/merlin.fasta
-;OUT := $(shell pwd)/5*/*
-RUN := /home/BCRICWH.LAN/ogoshen/software
-;#R1 := $(shell pwd)/input/*R1*
-;#R2 := $(shell pwd)/input/*R2*
-;#BB1 := $(shell echo $(OUT)/*val_1*)
-;#BB2 := $(shell echo $(OUT)/*val_2*)
+BASE=$[BASE]/$[SAMPLE_NAME]
+RUN=/home/BCRICWH.LAN/ogoshen/software
+
+IN=$[BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]/bbmap_output.sam
+REFw=/mnt/data/concensus/$[SAMPLE_NAME]_CMV_con.fasta
+
+
 
 ;val_1.fq.gz: $(R1) $(R2)
 ;	$RUN/trim_galore/./trim_galore --paired --length 50 -o $(OUT) $^
 
 ;$(OUT)/bbmap_output.sam: val_1.fq.gz
-;	$(RUN)/bbmap/bbmap.sh ref=$(REF) in=$(shell echo $(BB1))\
+;	$(RUN)/bbmap/bbmap.sh ref=$REFw in=$(shell echo $(BB1))\
 ;	in2=$(shell echo $(BB2)) \
 ;	out=$@ sam=1.3 nodisk	
 
 sam2.bam<- 
-	samtools view $IN -S -b -q 10 -T $REF -o $OUTPUT
+	samtools view $IN -S -b -q 10 -T $REFw -o $OUTPUT
 
 sorted.bam<-sam2.bam
 	samtools sort $INPUT -o $OUTPUT 
@@ -29,7 +26,7 @@ duplicates_removed.bam, metrics_picard<-sorted.bam
 	REMOVE_DUPLICATES=true m=$OUTPUT1
 
 mpileup<-duplicates_removed.bam
-	samtools mpileup -B -f $REF $INPUT0 -o $OUTPUT
+	samtools mpileup -B -f $REFw $INPUT0 -o $OUTPUT
 
 variants<-mpileup
 	java -jar $RUN/varscan/VarScan.v2.4.3.jar mpileup2cns $INPUT \
