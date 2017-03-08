@@ -1,10 +1,7 @@
-BASE=$[BASE]/$[SAMPLE_NAME]
-RUN=/home/BCRICWH.LAN/ogoshen/software
+BASE=$[BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]
 
-IN=$[BASE]/$[SAMPLE_NAME]_$[REF]/bbmap_output.sam
-REFw=/mnt/data/concensus/$[SAMPLE_NAME]_CMV_con.fasta
-
-
+IN=$[BASE]/bbmap_output.sam
+REFw=/mnt/data/datafiles/concensus/$[SAMPLE_NAME]_CMV_con.fasta
 
 ;val_1.fq.gz: $(R1) $(R2)
 ;	$RUN/trim_galore/./trim_galore --paired --length 50 -o $(OUT) $^
@@ -34,4 +31,4 @@ variants<-mpileup
 	--p-value 99e-02 --min-avg-qual 20 --min-freq-for-hom 0.60 > $OUTPUT
 
 incanted<-mpileup
-	java -jar $RUN/home/BCRICWH.LAN/ogoshen/software/genome/genome/target/genome-0.1.1-SNAPSHOT.jar mpileup incanter
+	java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT $OUTPUT
