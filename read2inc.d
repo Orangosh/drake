@@ -1,7 +1,7 @@
 BASE=$[BASE]/$[SAMPLE_NAME]
 RUN=/home/BCRICWH.LAN/ogoshen/software
 
-IN=$[BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]/bbmap_output.sam
+IN=$[BASE]/$[SAMPLE_NAME]_$[REF]/bbmap_output.sam
 REFw=/mnt/data/concensus/$[SAMPLE_NAME]_CMV_con.fasta
 
 
