@@ -23,11 +23,11 @@ duplicates_removed.bam, metrics_picard<-sorted.bam
 	REMOVE_DUPLICATES=true m=$OUTPUT1
 
 mpileup<-duplicates_removed.bam
-	samtools mpileup -B -f $REFw $INPUT0 -o $OUTPUT
+	samtools mpileup -Q 20 -f $REFw $INPUT0 -o $OUTPUT 
 
 variants<-mpileup
 	java -jar $RUN/varscan/VarScan.v2.4.3.jar mpileup2cns $INPUT \
-	--min-coverage 1 --min-reads2 1 --min-var-freq 0 \
+	--min-coverage 15 --min-reads2 1 --min-var-freq 0 \
 	--p-value 99e-02 --min-avg-qual 20 --min-freq-for-hom 0.60 > $OUTPUT
 
 incanted<-mpileup
