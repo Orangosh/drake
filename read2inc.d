@@ -25,10 +25,15 @@ duplicates_removed.bam, metrics_picard<-sorted.bam
 mpileup<-duplicates_removed.bam
 	samtools mpileup -Q 20 -f $REFw $INPUT0 -o $OUTPUT 
 
+
+;report.shorah<-duplicates_removed.bam
+;	source activate python2
+;	python /home/BCRICWH.LAN/ogoshen/software/shorah/shorah.py -b /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam -f /mnt/data/datafiles/concensus/505-Pa_CMV_con.fasta -w 120 
+
 variants<-mpileup
 	java -jar $RUN/varscan/VarScan.v2.4.3.jar mpileup2cns $INPUT \
 	--min-coverage 15 --min-reads2 1 --min-var-freq 0 \
 	--p-value 99e-02 --min-avg-qual 20 --min-freq-for-hom 0.60 > $OUTPUT
 
-incanted<-mpileup
-	java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT $OUTPUT
+incstats<-mpileup
+	java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/$[SAMPLE_NAME].inc > $[OUTPUT]
