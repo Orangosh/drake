@@ -1,18 +1,27 @@
-BASE=$[BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]
+BASE=$[GROUND_BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]
 
-IN=$[BASE]/bbmap_output.sam
-REFw=/mnt/data/datafiles/concensus/$[SAMPLE_NAME]_CMV_con.fasta
+R=$[GROUND_BASE]/input/$[SAMPLE_NAME]/$[SAMPLE_NAME]
+R1=$[R]_CMV_R1.fastq.gz
+R2=$[R]_CMV_R2.fastq.gz
+PEAR_FWD=$[R].unassembled.forward.fastq
+PEAR_BKW=$[R].unassembled.reverse.fastq
+VAL1=$[BASE]/trimed/$[SAMPLE_NAME].unassembled.forward_val_1.fq
+VAL2=$[BASE]/trimed/$[SAMPLE_NAME].unassembled.reverse_val_2.fq
 
-;val_1.fq.gz: $(R1) $(R2)
-;	$RUN/trim_galore/./trim_galore --paired --length 50 -o $(OUT) $^
+REFw=$[GROUND_BASE]/$[REF]/$[SAMPLE_NAME]_CMV_con.fasta
 
-;$(OUT)/bbmap_output.sam: val_1.fq.gz
-;	$(RUN)/bbmap/bbmap.sh ref=$REFw in=$(shell echo $(BB1))\
-;	in2=$(shell echo $(BB2)) \
-;	out=$@ sam=1.3 nodisk	
+%pear <-
+      pear-0.9.6-bin-64 -f $[R1] -r $[R2] -o $[R]
+      
+%trim <- %pear
+      mkdir $[BASE]/trimed
+      trim_galore --paired --length 50 -o $[BASE]/trimed $[PEAR_FWD] $[PEAR_BKW]
 
-sam2.bam<- 
-	samtools view $IN -S -b -q 10 -T $REFw -o $OUTPUT
+bbmap_output.sam <- %trim
+	 bbmap.sh ref=$REFw in=$[VAL1] in2=$[VAL2] out=$OUTPUT sam=1.3 nodisk	
+
+sam2.bam<-bbmap_output.sam
+	samtools view $INPUT -S -b -q 10 -T $REFw -o $OUTPUT
 
 sorted.bam<-sam2.bam
 	samtools sort $INPUT -o $OUTPUT 
@@ -24,7 +33,6 @@ duplicates_removed.bam, metrics_picard<-sorted.bam
 
 mpileup<-duplicates_removed.bam
 	samtools mpileup -Q 20 -f $REFw $INPUT0 -o $OUTPUT 
-
 
 ;report.shorah<-duplicates_removed.bam
 ;	source activate python2

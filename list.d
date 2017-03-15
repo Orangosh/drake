@@ -1,4 +1,4 @@
-BASE=/mnt/data/datafiles
+GROUND_BASE=/mnt/data/datafiles
 RUN = /home/BCRICWH.LAN/ogoshen/software
 REF = concensus
 
