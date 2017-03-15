@@ -3,6 +3,7 @@ BASE=$[GROUND_BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]
 R=$[GROUND_BASE]/input/$[SAMPLE_NAME]/$[SAMPLE_NAME]
 R1=$[R]_CMV_R1.fastq.gz
 R2=$[R]_CMV_R2.fastq.gz
+PEAR=$[R].assembled.fastq
 PEAR_FWD=$[R].unassembled.forward.fastq
 PEAR_BKW=$[R].unassembled.reverse.fastq
 VAL1=$[BASE]/trimed/$[SAMPLE_NAME].unassembled.forward_val_1.fq
@@ -34,9 +35,23 @@ duplicates_removed.bam, metrics_picard<-sorted.bam
 mpileup<-duplicates_removed.bam
 	samtools mpileup -Q 20 -f $REFw $INPUT0 -o $OUTPUT 
 
-;report.shorah<-duplicates_removed.bam
+;%shorahed<-duplicates_removed.bam
+;	mkdir $[BASE]/shorahed
 ;	source activate python2
 ;	python /home/BCRICWH.LAN/ogoshen/software/shorah/shorah.py -b /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam -f /mnt/data/datafiles/concensus/505-Pa_CMV_con.fasta -w 120 
+
+;%QuasiRecombed<-dulicates_removed.bam
+;	mkdir $[BASE]/QuasiRecombed
+;	java -jar $RUN/QuasiRecomb/QuasiRecomb.jar -i $INPUT  -o $[BASE]/QuasiRecombed
+
+;%haplocliqued<-duplicates_removed.bam
+;	mkdir $[BASE]/haplocliqued
+;	haploclique $INPUT $[BASE]/haplocliqued
+
+;%savaged<-%trim
+;	mkdir $[BASE]/savaged
+;	source activate python2
+;	savage -p1 $[VAL1] -p2 $[VAL2] -m 200 -t 8 --split 1 
 
 variants<-mpileup
 	java -jar $RUN/varscan/VarScan.v2.4.3.jar mpileup2cns $INPUT \
