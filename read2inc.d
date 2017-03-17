@@ -10,7 +10,7 @@ VAL1=$[R]/trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
 VAL2=$[R]/trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
 
 ;PEAR=$[R]/peared/$[SAMPLE_NAME].assembled.fastq ; pear- used for savaged
-;PEAR_VAL=$[R]/peared/$[SAMPLE_NAME].assembled_val.fastq
+;PEAR_VAL=$[R]/peared/$[SAMPLE_NAME].assembled_trimmed.fq
 
 
 REFfile=$[GROUND_BASE]/$[REF]/$[SAMPLE_NAME]_CMV_con.fasta
@@ -68,4 +68,4 @@ variants<-mpileup
 
 incstats<-mpileup
 	java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/$[SAMPLE_NAME].inc > $[OUTPUT]
-	sed -i '1i$[SAMPLE_NAME]' $[OUTPUT] 
+	sed -i '1i$[SAMPLE_NAME]' $[OUTPUT] ;adds name 
