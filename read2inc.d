@@ -68,3 +68,4 @@ variants<-mpileup
 
 incstats<-mpileup
 	java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/$[SAMPLE_NAME].inc > $[OUTPUT]
+	sed -i '1i$[SAMPLE_NAME]' $[OUTPUT] 
