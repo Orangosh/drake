@@ -1,19 +1,19 @@
 BASE=$[GROUND_BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]
 
+SAVAGE=$[GROUND_BASE]/$[SAMPLE_NAME]/savaged
+
 R=$[GROUND_BASE]/input/$[SAMPLE_NAME]
 R1=$[R]/$[SAMPLE_NAME]_CMV_R1.fastq.gz
 R2=$[R]/$[SAMPLE_NAME]_CMV_R2.fastq.gz
-PEAR=$[R]/peared/$[SAMPLE_NAME].assembled.fastq ; pear- used for savaged
-PEAR_FWD=$[R]/peared/$[SAMPLE_NAME].unassembled.forward.fastq ;not used now
-PEAR_BKW=$[R]/peared/$[SAMPLE_NAME].unassembled.reverse.fastq ;not used now
+
 VAL1=$[R]/trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
 VAL2=$[R]/trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
-PEAR_VAL1=$[R]/pear_trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
-PEAR_VAL2=$[R]/pear_trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
+
+;PEAR=$[R]/peared/$[SAMPLE_NAME].assembled.fastq ; pear- used for savaged
+;PEAR_VAL=$[R]/peared/$[SAMPLE_NAME].assembled_val.fastq
 
 
-
-REFw=$[GROUND_BASE]/$[REF]/$[SAMPLE_NAME]_CMV_con.fasta
+REFfile=$[GROUND_BASE]/$[REF]/$[SAMPLE_NAME]_CMV_con.fasta
 
 %pear <-
       mkdir $[R]/peared
@@ -26,16 +26,16 @@ REFw=$[GROUND_BASE]/$[REF]/$[SAMPLE_NAME]_CMV_con.fasta
 ;triming pear output PEAR-doesn't need pre processig can use trim galore after
 ;https://groups.google.com/forum/#!msg/pear-users/l5orQlGEZoU/pB6yewmXYwQJ
 ;%savaged<-%trim
-;	mkdir $[BASE]/savaged
-;	trim_galore --length 50 -o $[BASE]/savaged  $[PEAR] ;--paired ..... $[PEAR_FWD] $[PEAR_BKW]
+;	mkdir $[R]/peared
+;	trim_galore --length 50 -o  $[R]/peared $[PEAR] 
 ;	source activate python2
-;	savage -p1 $[PEAR_VAL1] -p2 $[PEAR_VAL2] -m 200 -t 8 --split 1 
+;	savage -s $[PEAR_VAL] -m 200 -t 8 --split 1 
 
 bbmap_output.sam <- %trim
-	 bbmap.sh ref=$REFw in=$[VAL1] in2=$[VAL2] out=$OUTPUT sam=1.3 nodisk	
+	 bbmap.sh ref=$REFfile in=$[VAL1] in2=$[VAL2] out=$OUTPUT sam=1.3 nodisk
 
 sam2.bam<-bbmap_output.sam
-	samtools view $INPUT -S -b -q 10 -T $REFw -o $OUTPUT
+	samtools view $INPUT -S -b -q 10 -T $REFfile -o $OUTPUT
 
 sorted.bam<-sam2.bam
 	samtools sort $INPUT -o $OUTPUT 
@@ -46,7 +46,7 @@ duplicates_removed.bam, metrics_picard<-sorted.bam
 	REMOVE_DUPLICATES=true m=$OUTPUT1
 
 mpileup<-duplicates_removed.bam
-	samtools mpileup -Q 20 -f $REFw $INPUT0 -o $OUTPUT 
+	samtools mpileup -Q 20 -f $REFfile $INPUT0 -o $OUTPUT 
 
 ;%shorahed<-duplicates_removed.bam
 ;	mkdir $[BASE]/shorahed
