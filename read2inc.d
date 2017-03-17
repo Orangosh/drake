@@ -1,26 +1,27 @@
 BASE=$[GROUND_BASE]/$[SAMPLE_NAME]/$[SAMPLE_NAME]_$[REF]
 
-R=$[GROUND_BASE]/input/$[SAMPLE_NAME]/$[SAMPLE_NAME]
-R1=$[R]_CMV_R1.fastq.gz
-R2=$[R]_CMV_R2.fastq.gz
-PEAR=$[R].assembled.fastq ; pear output will be used for savaged if chosen
-PEAR_FWD=$[R].unassembled.forward.fastq ;pear output not used now
-PEAR_BKW=$[R].unassembled.reverse.fastq ;pear output not used now
-VAL1=$[BASE]/trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
-VAL2=$[BASE]/trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
-PEAR_VAL1=$[BASE]/trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
-PEAR_VAL2=$[BASE]/trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
+R=$[GROUND_BASE]/input/$[SAMPLE_NAME]
+R1=$[R]/$[SAMPLE_NAME]_CMV_R1.fastq.gz
+R2=$[R]/$[SAMPLE_NAME]_CMV_R2.fastq.gz
+PEAR=$[R]/peared/$[SAMPLE_NAME].assembled.fastq ; pear- used for savaged
+PEAR_FWD=$[R]/peared/$[SAMPLE_NAME].unassembled.forward.fastq ;not used now
+PEAR_BKW=$[R]/peared/$[SAMPLE_NAME].unassembled.reverse.fastq ;not used now
+VAL1=$[R]/trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
+VAL2=$[R]/trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
+PEAR_VAL1=$[R]/pear_trimed/$[SAMPLE_NAME]_CMV_R1_val_1.fq.gz
+PEAR_VAL2=$[R]/pear_trimed/$[SAMPLE_NAME]_CMV_R2_val_2.fq.gz
 
 
 
 REFw=$[GROUND_BASE]/$[REF]/$[SAMPLE_NAME]_CMV_con.fasta
 
 %pear <-
-      pear-0.9.6-bin-64 -f $[R1] -r $[R2] -o $[R]
+      mkdir $[R]/peared
+      pear-0.9.6-bin-64 -f $[R1] -r $[R2] -o $[R]/peared
 
-%trim <- %pear ;the input is the base reads dependency on trim is only procedural
-      mkdir $[BASE]/trimed
-      trim_galore --paired --length 50 -o $[BASE]/trimed $[R1] $[R2]
+%trim <- %pear ;Input is the base reads dependency on trim is only procedural
+      mkdir $[R]/trimed
+      trim_galore --paired --length 50 -o $[R]/trimed $[R1] $[R2]
 
 ;triming pear output PEAR-doesn't need pre processig can use trim galore after
 ;https://groups.google.com/forum/#!msg/pear-users/l5orQlGEZoU/pB6yewmXYwQJ
