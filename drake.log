@@ -1,0 +1,1310 @@
+2017-03-31 12:14:02,606 INFO Running 128 steps with concurrence of 1...
+2017-03-31 12:14:02,656 INFO 
+2017-03-31 12:14:02,656 INFO --- 1. Running (via tag): %trim <- %pear
+2017-03-31 12:14:28,066 INFO --- 1: %trim <- %pear -> done in 25.41s
+2017-03-31 12:14:28,071 INFO 
+2017-03-31 12:14:28,071 INFO --- 55. Running (via tag): %trim <- %pear
+2017-03-31 12:16:23,404 INFO --- 55: %trim <- %pear -> done in 115.33s
+2017-03-31 12:16:23,405 INFO 
+2017-03-31 12:16:23,405 INFO --- 46. Running (via tag): %trim <- %pear
+2017-03-31 12:27:19,569 INFO --- 46: %trim <- %pear -> done in 656.16s
+2017-03-31 12:27:19,570 INFO 
+2017-03-31 12:27:19,571 INFO --- 136. Running (via tag): %trim <- %pear
+2017-03-31 12:39:04,416 INFO --- 136: %trim <- %pear -> done in 704.85s
+2017-03-31 12:39:04,417 INFO 
+2017-03-31 12:39:04,418 INFO --- 91. Running (via tag): %trim <- %pear
+2017-03-31 12:41:15,897 INFO --- 91: %trim <- %pear -> done in 131.48s
+2017-03-31 12:41:15,898 INFO 
+2017-03-31 12:41:15,898 INFO --- 109. Running (via tag): %trim <- %pear
+2017-03-31 12:51:44,837 INFO --- 109: %trim <- %pear -> done in 628.94s
+2017-03-31 12:51:44,838 INFO 
+2017-03-31 12:51:44,838 INFO --- 118. Running (via tag): %trim <- %pear
+2017-03-31 13:15:28,491 INFO --- 118: %trim <- %pear -> done in 1423.65s
+2017-03-31 13:15:28,493 INFO 
+2017-03-31 13:15:28,493 INFO --- 100. Running (via tag): %trim <- %pear
+2017-03-31 13:24:12,930 INFO --- 100: %trim <- %pear -> done in 524.44s
+2017-03-31 13:24:12,931 INFO 
+2017-03-31 13:24:12,931 INFO --- 28. Running (via tag): %trim <- %pear
+2017-03-31 13:42:01,255 INFO --- 28: %trim <- %pear -> done in 1068.32s
+2017-03-31 13:42:01,256 INFO 
+2017-03-31 13:42:01,256 INFO --- 64. Running (via tag): %trim <- %pear
+2017-03-31 14:18:50,956 INFO --- 64: %trim <- %pear -> done in 2209.70s
+2017-03-31 14:18:50,958 INFO 
+2017-03-31 14:18:50,958 INFO --- 127. Running (via tag): %trim <- %pear
+2017-03-31 14:27:24,216 INFO --- 127: %trim <- %pear -> done in 513.26s
+2017-03-31 14:27:24,217 INFO 
+2017-03-31 14:27:24,217 INFO --- 82. Running (via tag): %trim <- %pear
+2017-03-31 14:37:27,797 INFO --- 82: %trim <- %pear -> done in 603.58s
+2017-03-31 14:37:27,798 INFO 
+2017-03-31 14:37:27,798 INFO --- 19. Running (via tag): %trim <- %pear
+2017-03-31 15:14:24,202 INFO --- 19: %trim <- %pear -> done in 2216.40s
+2017-03-31 15:14:24,204 INFO 
+2017-03-31 15:14:24,204 INFO --- 73. Running (via tag): %trim <- %pear
+2017-03-31 15:16:42,266 INFO --- 73: %trim <- %pear -> done in 138.06s
+2017-03-31 15:16:42,267 INFO 
+2017-03-31 15:16:42,267 INFO --- 10. Running (via tag): %trim <- %pear
+2017-03-31 15:43:52,119 INFO --- 10: %trim <- %pear -> done in 1629.85s
+2017-03-31 15:43:52,120 INFO 
+2017-03-31 15:43:52,120 INFO --- 37. Running (via tag): %trim <- %pear
+2017-03-31 15:58:09,491 INFO --- 37: %trim <- %pear -> done in 857.37s
+2017-03-31 15:58:09,494 INFO 
+2017-03-31 15:58:09,495 INFO --- 2. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam <- %trim
+2017-03-31 15:58:30,853 INFO --- 2: /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam <- %trim -> done in 21.36s
+2017-03-31 15:58:30,855 INFO 
+2017-03-31 15:58:30,855 INFO --- 3. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam <- /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam
+2017-03-31 15:58:32,417 INFO --- 3: /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam <- /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam -> done in 1.56s
+2017-03-31 15:58:32,418 INFO 
+2017-03-31 15:58:32,418 INFO --- 4. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam <- /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam
+2017-03-31 15:58:33,700 INFO --- 4: /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam <- /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam -> done in 1.28s
+2017-03-31 15:58:33,702 INFO 
+2017-03-31 15:58:33,702 INFO --- 5. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-M/505-M_concensus/metrics_picard <- /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam
+2017-03-31 15:58:43,659 INFO --- 5: /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-M/505-M_concensus/metrics_picard <- /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam -> done in 9.96s
+2017-03-31 15:58:43,661 INFO 
+2017-03-31 15:58:43,661 INFO --- 6. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/mpileup <- /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam
+2017-03-31 15:58:44,496 INFO --- 6: /mnt/data/datafiles/505-M/505-M_concensus/mpileup <- /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam -> done in 0.83s
+2017-03-31 15:58:44,497 INFO 
+2017-03-31 15:58:44,497 INFO --- 7. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/variants <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-03-31 15:58:46,896 INFO --- 7: /mnt/data/datafiles/505-M/505-M_concensus/variants <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup -> done in 2.40s
+2017-03-31 15:58:46,898 INFO 
+2017-03-31 15:58:46,898 INFO --- 8. Running (missing output): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-03-31 15:59:28,561 INFO 
+2017-03-31 15:59:28,562 INFO --- 11. Running (missing output): /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam <- %trim
+2017-03-31 16:23:28,829 ERROR drake: target not found: %bbmap_output.sam
+2017-03-31 16:23:54,125 INFO Running 112 steps with concurrence of 1...
+2017-03-31 16:23:54,174 INFO 
+2017-03-31 16:23:54,174 INFO --- 2. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam <- %trim
+2017-03-31 16:24:12,922 INFO --- 2: /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam <- %trim -> done in 18.74s
+2017-03-31 16:24:12,927 INFO 
+2017-03-31 16:24:12,927 INFO --- 3. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam <- /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam
+2017-03-31 16:24:14,493 INFO --- 3: /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam <- /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam -> done in 1.56s
+2017-03-31 16:24:14,494 INFO 
+2017-03-31 16:24:14,495 INFO --- 4. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam <- /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam
+2017-03-31 16:24:15,782 INFO --- 4: /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam <- /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam -> done in 1.29s
+2017-03-31 16:24:15,784 INFO 
+2017-03-31 16:24:15,784 INFO --- 5. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-M/505-M_concensus/metrics_picard <- /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam
+2017-03-31 16:24:25,831 INFO --- 5: /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-M/505-M_concensus/metrics_picard <- /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam -> done in 10.05s
+2017-03-31 16:24:25,833 INFO 
+2017-03-31 16:24:25,833 INFO --- 6. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/mpileup <- /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam
+2017-03-31 16:24:26,668 INFO --- 6: /mnt/data/datafiles/505-M/505-M_concensus/mpileup <- /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam -> done in 0.83s
+2017-03-31 16:24:26,670 INFO 
+2017-03-31 16:24:26,670 INFO --- 7. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/variants <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-03-31 16:24:29,185 INFO --- 7: /mnt/data/datafiles/505-M/505-M_concensus/variants <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup -> done in 2.51s
+2017-03-31 16:24:29,187 INFO 
+2017-03-31 16:24:29,187 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-03-31 16:25:11,916 INFO 
+2017-03-31 16:25:11,917 INFO --- 11. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam <- %trim
+2017-03-31 16:44:52,272 INFO --- 11: /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam <- %trim -> done in 1180.35s
+2017-03-31 16:44:52,274 INFO 
+2017-03-31 16:44:52,274 INFO --- 12. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam
+2017-03-31 16:54:44,389 INFO --- 12: /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam -> done in 592.11s
+2017-03-31 16:54:44,390 INFO 
+2017-03-31 16:54:44,391 INFO --- 13. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam
+2017-03-31 17:06:26,628 INFO --- 13: /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam -> done in 702.24s
+2017-03-31 17:06:26,629 INFO 
+2017-03-31 17:06:26,629 INFO --- 14. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-Pa/505-Pa_concensus/metrics_picard <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam
+2017-03-31 17:12:34,062 INFO --- 14: /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-Pa/505-Pa_concensus/metrics_picard <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam -> done in 367.43s
+2017-03-31 17:12:34,064 INFO 
+2017-03-31 17:12:34,064 INFO --- 15. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam
+2017-03-31 17:29:16,914 INFO --- 15: /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam -> done in 1002.85s
+2017-03-31 17:29:16,915 INFO 
+2017-03-31 17:29:16,916 INFO --- 16. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/variants <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-03-31 17:29:38,044 INFO --- 16: /mnt/data/datafiles/505-Pa/505-Pa_concensus/variants <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup -> done in 21.13s
+2017-03-31 17:29:38,045 INFO 
+2017-03-31 17:29:38,046 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-03-31 17:34:37,074 INFO 
+2017-03-31 17:34:37,075 INFO --- 20. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam <- %trim
+2017-03-31 18:00:53,585 INFO --- 20: /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam <- %trim -> done in 1576.51s
+2017-03-31 18:00:53,587 INFO 
+2017-03-31 18:00:53,588 INFO --- 21. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam
+2017-03-31 18:14:27,392 INFO --- 21: /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam -> done in 813.80s
+2017-03-31 18:14:27,393 INFO 
+2017-03-31 18:14:27,394 INFO --- 22. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam
+2017-03-31 18:30:28,863 INFO --- 22: /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam -> done in 961.47s
+2017-03-31 18:30:28,864 INFO 
+2017-03-31 18:30:28,864 INFO --- 23. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pb/519-Pb_concensus/metrics_picard <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam
+2017-03-31 18:44:00,797 INFO --- 23: /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pb/519-Pb_concensus/metrics_picard <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam -> done in 811.93s
+2017-03-31 18:44:00,799 INFO 
+2017-03-31 18:44:00,799 INFO --- 24. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam
+2017-03-31 19:51:10,837 INFO --- 24: /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam -> done in 4030.04s
+2017-03-31 19:51:10,839 INFO 
+2017-03-31 19:51:10,839 INFO --- 25. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/variants <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-03-31 19:51:19,090 INFO --- 25: /mnt/data/datafiles/519-Pb/519-Pb_concensus/variants <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup -> done in 8.25s
+2017-03-31 19:51:19,092 INFO 
+2017-03-31 19:51:19,092 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-03-31 20:00:36,769 INFO 
+2017-03-31 20:00:36,770 INFO --- 29. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam <- %trim
+2017-03-31 20:13:21,355 INFO --- 29: /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam <- %trim -> done in 764.58s
+2017-03-31 20:13:21,357 INFO 
+2017-03-31 20:13:21,357 INFO --- 30. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam
+2017-03-31 20:19:46,728 INFO --- 30: /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam -> done in 385.37s
+2017-03-31 20:19:46,730 INFO 
+2017-03-31 20:19:46,730 INFO --- 31. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam
+2017-03-31 20:26:58,000 INFO --- 31: /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam -> done in 431.27s
+2017-03-31 20:26:58,001 INFO 
+2017-03-31 20:26:58,001 INFO --- 32. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pc/519-Pc_concensus/metrics_picard <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam
+2017-03-31 20:31:14,146 INFO --- 32: /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pc/519-Pc_concensus/metrics_picard <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam -> done in 256.14s
+2017-03-31 20:31:14,147 INFO 
+2017-03-31 20:31:14,147 INFO --- 33. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam
+2017-03-31 20:35:31,350 INFO --- 33: /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam -> done in 257.20s
+2017-03-31 20:35:31,351 INFO 
+2017-03-31 20:35:31,352 INFO --- 34. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/variants <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-03-31 20:36:28,212 INFO --- 34: /mnt/data/datafiles/519-Pc/519-Pc_concensus/variants <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup -> done in 56.86s
+2017-03-31 20:36:28,213 INFO 
+2017-03-31 20:36:28,213 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-03-31 20:38:40,449 INFO 
+2017-03-31 20:38:40,449 INFO --- 38. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam <- %trim
+2017-03-31 20:49:35,262 INFO --- 38: /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam <- %trim -> done in 654.81s
+2017-03-31 20:49:35,263 INFO 
+2017-03-31 20:49:35,263 INFO --- 39. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam
+2017-03-31 20:54:17,488 INFO --- 39: /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam -> done in 282.22s
+2017-03-31 20:54:17,490 INFO 
+2017-03-31 20:54:17,490 INFO --- 40. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam
+2017-03-31 20:59:27,828 INFO --- 40: /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam -> done in 310.34s
+2017-03-31 20:59:27,830 INFO 
+2017-03-31 20:59:27,830 INFO --- 41. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pd/519-Pd_concensus/metrics_picard <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam
+2017-03-31 21:02:15,668 INFO --- 41: /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pd/519-Pd_concensus/metrics_picard <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam -> done in 167.84s
+2017-03-31 21:02:15,669 INFO 
+2017-03-31 21:02:15,670 INFO --- 42. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam
+2017-03-31 21:02:39,817 INFO --- 42: /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam -> done in 24.15s
+2017-03-31 21:02:39,818 INFO 
+2017-03-31 21:02:39,819 INFO --- 43. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/variants <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-03-31 21:02:54,290 INFO --- 43: /mnt/data/datafiles/519-Pd/519-Pd_concensus/variants <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup -> done in 14.47s
+2017-03-31 21:02:54,291 INFO 
+2017-03-31 21:02:54,292 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-03-31 21:03:47,580 INFO 
+2017-03-31 21:03:47,580 INFO --- 47. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam <- %trim
+2017-03-31 21:11:58,082 INFO --- 47: /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam <- %trim -> done in 490.50s
+2017-03-31 21:11:58,084 INFO 
+2017-03-31 21:11:58,084 INFO --- 48. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam
+2017-03-31 21:15:47,173 INFO --- 48: /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam -> done in 229.09s
+2017-03-31 21:15:47,174 INFO 
+2017-03-31 21:15:47,174 INFO --- 49. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam
+2017-03-31 21:19:53,191 INFO --- 49: /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam -> done in 246.02s
+2017-03-31 21:19:53,192 INFO 
+2017-03-31 21:19:53,192 INFO --- 50. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-S1a/519-S1a_concensus/metrics_picard <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam
+2017-03-31 21:21:57,695 INFO --- 50: /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-S1a/519-S1a_concensus/metrics_picard <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam -> done in 124.50s
+2017-03-31 21:21:57,696 INFO 
+2017-03-31 21:21:57,697 INFO --- 51. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam
+2017-03-31 21:22:05,851 INFO --- 51: /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam -> done in 8.15s
+2017-03-31 21:22:05,852 INFO 
+2017-03-31 21:22:05,852 INFO --- 52. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/variants <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-03-31 21:22:06,952 INFO --- 52: /mnt/data/datafiles/519-S1a/519-S1a_concensus/variants <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup -> done in 1.10s
+2017-03-31 21:22:06,953 INFO 
+2017-03-31 21:22:06,953 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-03-31 21:22:57,698 INFO 
+2017-03-31 21:22:57,699 INFO --- 56. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam <- %trim
+2017-03-31 21:24:20,648 INFO --- 56: /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam <- %trim -> done in 82.95s
+2017-03-31 21:24:20,649 INFO 
+2017-03-31 21:24:20,649 INFO --- 57. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam
+2017-03-31 21:24:51,340 INFO --- 57: /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam -> done in 30.69s
+2017-03-31 21:24:51,341 INFO 
+2017-03-31 21:24:51,341 INFO --- 58. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam
+2017-03-31 21:25:19,542 INFO --- 58: /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam -> done in 28.20s
+2017-03-31 21:25:19,543 INFO 
+2017-03-31 21:25:19,543 INFO --- 59. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pa/520-Pa_concensus/metrics_picard <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam
+2017-03-31 21:25:53,783 INFO --- 59: /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pa/520-Pa_concensus/metrics_picard <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam -> done in 34.24s
+2017-03-31 21:25:53,784 INFO 
+2017-03-31 21:25:53,784 INFO --- 60. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam
+2017-03-31 21:27:21,396 INFO --- 60: /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam -> done in 87.61s
+2017-03-31 21:27:21,397 INFO 
+2017-03-31 21:27:21,397 INFO --- 61. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/variants <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-03-31 21:27:38,279 INFO --- 61: /mnt/data/datafiles/520-Pa/520-Pa_concensus/variants <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup -> done in 16.88s
+2017-03-31 21:27:38,281 INFO 
+2017-03-31 21:27:38,281 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-03-31 21:28:43,396 INFO 
+2017-03-31 21:28:43,396 INFO --- 65. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam <- %trim
+2017-03-31 21:54:31,966 INFO --- 65: /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam <- %trim -> done in 1548.57s
+2017-03-31 21:54:31,968 INFO 
+2017-03-31 21:54:31,968 INFO --- 66. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam
+2017-03-31 22:07:21,910 INFO --- 66: /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam -> done in 769.94s
+2017-03-31 22:07:21,912 INFO 
+2017-03-31 22:07:21,912 INFO --- 67. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam
+2017-03-31 22:22:37,063 INFO --- 67: /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam -> done in 915.15s
+2017-03-31 22:22:37,064 INFO 
+2017-03-31 22:22:37,064 INFO --- 68. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pb/520-Pb_concensus/metrics_picard <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam
+2017-03-31 22:34:14,438 INFO --- 68: /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pb/520-Pb_concensus/metrics_picard <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam -> done in 697.37s
+2017-03-31 22:34:14,441 INFO 
+2017-03-31 22:34:14,441 INFO --- 69. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam
+2017-03-31 23:10:52,211 INFO Aborted.
+2017-03-31 23:12:01,768 INFO Aborted.
+2017-03-31 23:13:59,123 INFO Running 63 steps with concurrence of 1...
+2017-03-31 23:13:59,150 INFO 
+2017-03-31 23:13:59,150 INFO --- 2. Running (no-input step): /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam <- %trim
+2017-03-31 23:40:07,793 INFO --- 2: /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam <- %trim -> done in 1568.64s
+2017-03-31 23:40:07,799 INFO 
+2017-03-31 23:40:07,799 INFO --- 3. Running (timestamped): /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam
+2017-03-31 23:52:42,857 INFO --- 3: /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam -> done in 755.01s
+2017-03-31 23:52:42,860 INFO 
+2017-03-31 23:52:42,860 INFO --- 4. Running (timestamped): /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam
+2017-04-01 00:08:03,064 INFO --- 4: /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam -> done in 920.20s
+2017-04-01 00:08:03,066 INFO 
+2017-04-01 00:08:03,066 INFO --- 5. Running (timestamped): /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pb/520-Pb_concensus/metrics_picard <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam
+2017-04-01 00:19:09,281 INFO --- 5: /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pb/520-Pb_concensus/metrics_picard <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam -> done in 666.21s
+2017-04-01 00:19:09,284 INFO 
+2017-04-01 00:19:09,284 INFO --- 6. Running (timestamped): /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam
+2017-04-01 01:13:52,039 INFO --- 6: /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam -> done in 3281.57s
+2017-04-01 01:13:52,042 INFO 
+2017-04-01 01:13:52,042 INFO --- 7. Running (missing output): /mnt/data/datafiles/520-Pb/520-Pb_concensus/variants <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-04-01 01:14:26,182 INFO --- 7: /mnt/data/datafiles/520-Pb/520-Pb_concensus/variants <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup -> done in 34.14s
+2017-04-01 01:14:26,184 INFO 
+2017-04-01 01:14:26,184 INFO --- 8. Running (missing output): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-04-01 01:23:14,552 INFO 
+2017-04-01 01:23:14,553 INFO --- 11. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam <- %trim
+2017-04-01 01:24:42,765 INFO --- 11: /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam <- %trim -> done in 88.21s
+2017-04-01 01:24:42,767 INFO 
+2017-04-01 01:24:42,767 INFO --- 12. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam
+2017-04-01 01:25:18,977 INFO --- 12: /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam -> done in 36.21s
+2017-04-01 01:25:18,979 INFO 
+2017-04-01 01:25:18,979 INFO --- 13. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam
+2017-04-01 01:26:02,515 INFO --- 13: /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam -> done in 43.54s
+2017-04-01 01:26:02,517 INFO 
+2017-04-01 01:26:02,517 INFO --- 14. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pc/520-Pc_concensus/metrics_picard <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam
+2017-04-01 01:26:47,004 INFO --- 14: /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pc/520-Pc_concensus/metrics_picard <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam -> done in 44.49s
+2017-04-01 01:26:47,006 INFO 
+2017-04-01 01:26:47,007 INFO --- 15. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam
+2017-04-01 01:28:40,844 INFO --- 15: /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam -> done in 113.84s
+2017-04-01 01:28:40,847 INFO 
+2017-04-01 01:28:40,847 INFO --- 16. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/variants <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-04-01 01:28:45,151 INFO --- 16: /mnt/data/datafiles/520-Pc/520-Pc_concensus/variants <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup -> done in 4.30s
+2017-04-01 01:28:45,153 INFO 
+2017-04-01 01:28:45,153 INFO --- 17. Running (missing output): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-04-01 01:29:57,391 INFO 
+2017-04-01 01:29:57,392 INFO --- 20. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam <- %trim
+2017-04-01 01:33:40,207 INFO --- 20: /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam <- %trim -> done in 222.81s
+2017-04-01 01:33:40,209 INFO 
+2017-04-01 01:33:40,209 INFO --- 21. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam
+2017-04-01 01:35:13,266 INFO --- 21: /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam -> done in 92.99s
+2017-04-01 01:35:13,267 INFO 
+2017-04-01 01:35:13,267 INFO --- 22. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam
+2017-04-01 01:36:45,569 INFO --- 22: /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam -> done in 92.30s
+2017-04-01 01:36:45,571 INFO 
+2017-04-01 01:36:45,571 INFO --- 23. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1/520-S1_concensus/metrics_picard <- /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam
+2017-04-01 01:37:38,030 INFO --- 23: /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1/520-S1_concensus/metrics_picard <- /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam -> done in 52.46s
+2017-04-01 01:37:38,032 INFO 
+2017-04-01 01:37:38,032 INFO --- 24. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup <- /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam
+2017-04-01 01:37:48,150 INFO --- 24: /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup <- /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam -> done in 10.12s
+2017-04-01 01:37:48,151 INFO 
+2017-04-01 01:37:48,151 INFO --- 25. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/variants <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-04-01 01:38:02,694 INFO --- 25: /mnt/data/datafiles/520-S1/520-S1_concensus/variants <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup -> done in 14.54s
+2017-04-01 01:38:02,696 INFO 
+2017-04-01 01:38:02,696 INFO --- 26. Running (missing output): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-04-01 01:38:52,948 INFO 
+2017-04-01 01:38:52,948 INFO --- 29. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam <- %trim
+2017-04-01 01:39:51,240 INFO --- 29: /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam <- %trim -> done in 58.29s
+2017-04-01 01:39:51,242 INFO 
+2017-04-01 01:39:51,242 INFO --- 30. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam
+2017-04-01 01:40:12,663 INFO --- 30: /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam -> done in 21.42s
+2017-04-01 01:40:12,664 INFO 
+2017-04-01 01:40:12,664 INFO --- 31. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam
+2017-04-01 01:40:32,728 INFO --- 31: /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam -> done in 20.06s
+2017-04-01 01:40:32,729 INFO 
+2017-04-01 01:40:32,729 INFO --- 32. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1a/520-S1a_concensus/metrics_picard <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam
+2017-04-01 01:40:53,156 INFO --- 32: /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1a/520-S1a_concensus/metrics_picard <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam -> done in 20.43s
+2017-04-01 01:40:53,157 INFO 
+2017-04-01 01:40:53,157 INFO --- 33. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam
+2017-04-01 01:41:04,967 INFO --- 33: /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam -> done in 11.81s
+2017-04-01 01:41:04,968 INFO 
+2017-04-01 01:41:04,968 INFO --- 34. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/variants <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-04-01 01:41:16,898 INFO --- 34: /mnt/data/datafiles/520-S1a/520-S1a_concensus/variants <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup -> done in 11.93s
+2017-04-01 01:41:16,899 INFO 
+2017-04-01 01:41:16,900 INFO --- 35. Running (missing output): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-04-01 01:42:06,894 INFO 
+2017-04-01 01:42:06,894 INFO --- 38. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam <- %trim
+2017-04-01 01:44:06,137 INFO --- 38: /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam <- %trim -> done in 119.24s
+2017-04-01 01:44:06,138 INFO 
+2017-04-01 01:44:06,138 INFO --- 39. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam <- /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam
+2017-04-01 01:44:58,205 INFO --- 39: /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam <- /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam -> done in 52.07s
+2017-04-01 01:44:58,206 INFO 
+2017-04-01 01:44:58,206 INFO --- 40. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam <- /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam
+2017-04-01 01:45:49,178 INFO --- 40: /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam <- /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam -> done in 50.97s
+2017-04-01 01:45:49,180 INFO 
+2017-04-01 01:45:49,180 INFO --- 41. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-M/579-M_concensus/metrics_picard <- /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam
+2017-04-01 01:46:18,913 INFO --- 41: /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-M/579-M_concensus/metrics_picard <- /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam -> done in 29.73s
+2017-04-01 01:46:18,914 INFO 
+2017-04-01 01:46:18,914 INFO --- 42. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/mpileup <- /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam
+2017-04-01 01:46:22,395 INFO --- 42: /mnt/data/datafiles/579-M/579-M_concensus/mpileup <- /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam -> done in 3.48s
+2017-04-01 01:46:22,396 INFO 
+2017-04-01 01:46:22,397 INFO --- 43. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/variants <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-04-01 01:46:33,993 INFO --- 43: /mnt/data/datafiles/579-M/579-M_concensus/variants <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup -> done in 11.60s
+2017-04-01 01:46:33,995 INFO 
+2017-04-01 01:46:33,995 INFO --- 44. Running (missing output): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-04-01 01:47:22,581 INFO 
+2017-04-01 01:47:22,581 INFO --- 47. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam <- %trim
+2017-04-01 01:54:58,685 INFO --- 47: /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam <- %trim -> done in 456.10s
+2017-04-01 01:54:58,687 INFO 
+2017-04-01 01:54:58,687 INFO --- 48. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam
+2017-04-01 01:58:15,268 INFO --- 48: /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam -> done in 196.58s
+2017-04-01 01:58:15,270 INFO 
+2017-04-01 01:58:15,270 INFO --- 49. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam
+2017-04-01 02:01:50,761 INFO --- 49: /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam -> done in 215.49s
+2017-04-01 02:01:50,763 INFO 
+2017-04-01 02:01:50,763 INFO --- 50. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pa/579-Pa_concensus/metrics_picard <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam
+2017-04-01 02:03:40,125 INFO --- 50: /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pa/579-Pa_concensus/metrics_picard <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam -> done in 109.36s
+2017-04-01 02:03:40,127 INFO 
+2017-04-01 02:03:40,127 INFO --- 51. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam
+2017-04-01 02:05:14,381 INFO --- 51: /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam -> done in 94.25s
+2017-04-01 02:05:14,383 INFO 
+2017-04-01 02:05:14,383 INFO --- 52. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/variants <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-04-01 02:05:51,836 INFO --- 52: /mnt/data/datafiles/579-Pa/579-Pa_concensus/variants <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup -> done in 37.45s
+2017-04-01 02:05:51,838 INFO 
+2017-04-01 02:05:51,838 INFO --- 53. Running (missing output): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-04-01 02:06:59,798 INFO 
+2017-04-01 02:06:59,798 INFO --- 56. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam <- %trim
+2017-04-01 02:22:22,015 INFO --- 56: /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam <- %trim -> done in 922.22s
+2017-04-01 02:22:22,017 INFO 
+2017-04-01 02:22:22,018 INFO --- 57. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam
+2017-04-01 02:30:18,496 INFO --- 57: /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam -> done in 476.48s
+2017-04-01 02:30:18,498 INFO 
+2017-04-01 02:30:18,498 INFO --- 58. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam
+2017-04-01 02:39:32,664 INFO --- 58: /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam -> done in 554.17s
+2017-04-01 02:39:32,665 INFO 
+2017-04-01 02:39:32,665 INFO --- 59. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pb/579-Pb_concensus/metrics_picard <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam
+2017-04-01 02:47:46,810 INFO --- 59: /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pb/579-Pb_concensus/metrics_picard <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam -> done in 494.14s
+2017-04-01 02:47:46,811 INFO 
+2017-04-01 02:47:46,812 INFO --- 60. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam
+2017-04-01 03:33:29,119 INFO --- 60: /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam -> done in 2742.31s
+2017-04-01 03:33:29,121 INFO 
+2017-04-01 03:33:29,121 INFO --- 61. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/variants <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-04-01 03:34:04,336 INFO --- 61: /mnt/data/datafiles/579-Pb/579-Pb_concensus/variants <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup -> done in 35.22s
+2017-04-01 03:34:04,337 INFO 
+2017-04-01 03:34:04,337 INFO --- 62. Running (missing output): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-04-01 03:42:02,477 INFO 
+2017-04-01 03:42:02,478 INFO --- 65. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam <- %trim
+2017-04-01 03:48:03,914 INFO --- 65: /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam <- %trim -> done in 361.44s
+2017-04-01 03:48:03,916 INFO 
+2017-04-01 03:48:03,916 INFO --- 66. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam
+2017-04-01 03:50:39,735 INFO --- 66: /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam -> done in 155.82s
+2017-04-01 03:50:39,737 INFO 
+2017-04-01 03:50:39,737 INFO --- 67. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam
+2017-04-01 03:53:30,989 INFO --- 67: /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam -> done in 171.25s
+2017-04-01 03:53:30,991 INFO 
+2017-04-01 03:53:30,991 INFO --- 68. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1a/579-S1a_concensus/metrics_picard <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam
+2017-04-01 03:55:22,528 INFO --- 68: /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1a/579-S1a_concensus/metrics_picard <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam -> done in 111.54s
+2017-04-01 03:55:22,529 INFO 
+2017-04-01 03:55:22,529 INFO --- 69. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam
+2017-04-01 03:57:24,655 INFO --- 69: /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam -> done in 122.12s
+2017-04-01 03:57:24,657 INFO 
+2017-04-01 03:57:24,657 INFO --- 70. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/variants <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-04-01 03:57:28,626 INFO --- 70: /mnt/data/datafiles/579-S1a/579-S1a_concensus/variants <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup -> done in 3.93s
+2017-04-01 03:57:28,627 INFO 
+2017-04-01 03:57:28,627 INFO --- 71. Running (missing output): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-04-01 03:58:43,693 INFO 
+2017-04-01 03:58:43,693 INFO --- 74. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam <- %trim
+2017-04-01 04:07:10,398 INFO --- 74: /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam <- %trim -> done in 506.70s
+2017-04-01 04:07:10,400 INFO 
+2017-04-01 04:07:10,400 INFO --- 75. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam
+2017-04-01 04:10:51,123 INFO --- 75: /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam -> done in 220.72s
+2017-04-01 04:10:51,125 INFO 
+2017-04-01 04:10:51,125 INFO --- 76. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam
+2017-04-01 04:15:01,164 INFO --- 76: /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam -> done in 250.04s
+2017-04-01 04:15:01,165 INFO 
+2017-04-01 04:15:01,166 INFO --- 77. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1b/579-S1b_concensus/metrics_picard <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam
+2017-04-01 04:18:01,635 INFO --- 77: /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1b/579-S1b_concensus/metrics_picard <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam -> done in 180.47s
+2017-04-01 04:18:01,636 INFO 
+2017-04-01 04:18:01,636 INFO --- 78. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam
+2017-04-01 04:25:40,903 INFO --- 78: /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam -> done in 459.27s
+2017-04-01 04:25:40,905 INFO 
+2017-04-01 04:25:40,905 INFO --- 79. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/variants <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-04-01 04:26:30,298 INFO --- 79: /mnt/data/datafiles/579-S1b/579-S1b_concensus/variants <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup -> done in 49.39s
+2017-04-01 04:26:30,299 INFO 
+2017-04-01 04:26:30,299 INFO --- 80. Running (missing output): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-04-01 04:29:30,844 INFO Done (54 steps run).
+2017-04-01 04:29:30,851 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/520-Pb.inc > /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats\nsed -i '1i520-Pb' /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-1e8e844648760012d644180da0ed71a4.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@6940e9ac> #<BufferedWriter java.io.BufferedWriter@d41e8bd>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@25502bde> #<BufferedWriter java.io.BufferedWriter@36bb26c9>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-04-01 16:56:18,152 INFO Nothing to do.
+2017-04-01 16:56:48,453 INFO Running 1 steps with concurrence of 1...
+2017-04-01 16:56:48,478 INFO 
+2017-04-01 16:56:48,478 INFO --- 8. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-04-01 16:59:37,262 INFO Done (0 steps run).
+2017-04-01 16:59:37,266 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/579-S1b.inc > /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats\nsed -i '1i579-S1b' /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-0534b233c1211be1de28db31dc757bd5.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@3826d4b6> #<BufferedWriter java.io.BufferedWriter@d6fe9e7>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@5c4e55aa> #<BufferedWriter java.io.BufferedWriter@1c5abad2>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-04-01 17:02:00,495 INFO Running 1 steps with concurrence of 1...
+2017-04-01 17:02:00,518 INFO 
+2017-04-01 17:02:00,519 INFO --- 8. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-04-01 17:03:27,905 INFO Done (0 steps run).
+2017-04-01 17:03:27,909 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/579-S1a.inc > /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats\nsed -i '1i579-S1a' /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-0ffedcb9fd57dc1b0cd1dd749c8d93a3.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@502f9811> #<BufferedWriter java.io.BufferedWriter@145b7cc8>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@2cbeb45d> #<BufferedWriter java.io.BufferedWriter@40a3cd7c>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-04-01 17:04:06,564 INFO Running 2 steps with concurrence of 1...
+2017-04-01 17:04:06,585 INFO 
+2017-04-01 17:04:06,585 INFO --- 8. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-04-01 17:05:36,345 INFO 
+2017-04-01 17:05:36,346 INFO --- 17. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-04-01 17:08:32,418 INFO Done (0 steps run).
+2017-04-01 17:08:32,421 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/579-S1a.inc > /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats\nsed -i '1i579-S1a' /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-0ffedcb9fd57dc1b0cd1dd749c8d93a3.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@60aae358> #<BufferedWriter java.io.BufferedWriter@5cbff584>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@673e33c4> #<BufferedWriter java.io.BufferedWriter@61e43ce>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-04-04 13:10:43,128 INFO Nothing to do.
+2017-04-04 13:11:33,089 INFO Running 16 steps with concurrence of 1...
+2017-04-04 13:11:33,111 INFO 
+2017-04-04 13:11:33,111 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-04-04 13:12:14,539 INFO 
+2017-04-04 13:12:14,540 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-04-04 13:17:07,169 INFO 
+2017-04-04 13:17:07,170 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-04-04 13:26:32,516 INFO 
+2017-04-04 13:26:32,517 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-04-04 13:28:29,692 INFO 
+2017-04-04 13:28:29,693 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-04-04 13:29:22,293 INFO 
+2017-04-04 13:29:22,293 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-04-04 13:30:11,367 INFO 
+2017-04-04 13:30:11,368 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-04-04 13:31:18,799 INFO 
+2017-04-04 13:31:18,799 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-04-04 13:40:21,616 INFO 
+2017-04-04 13:40:21,617 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-04-04 13:41:33,415 INFO 
+2017-04-04 13:41:33,415 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-04-04 13:42:22,299 INFO 
+2017-04-04 13:42:22,299 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-04-04 13:43:13,002 INFO 
+2017-04-04 13:43:13,002 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-04-04 13:44:01,908 INFO 
+2017-04-04 13:44:01,908 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-04-04 13:45:11,049 INFO 
+2017-04-04 13:45:11,049 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-04-04 13:53:14,596 INFO 
+2017-04-04 13:53:14,596 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-04-04 13:54:31,700 INFO 
+2017-04-04 13:54:31,700 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-04-04 13:57:03,740 INFO Done (0 steps run).
+2017-04-04 13:57:03,744 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc > /mnt/data/datafiles/505-M/505-M_concensus/incstats\nsed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-07d1284a3ae678a0e4e1e0d5c2017ba8.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@33572796> #<BufferedWriter java.io.BufferedWriter@5c913086>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@5e8171cb> #<BufferedWriter java.io.BufferedWriter@2bac0635>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-04-30 21:59:47,539 ERROR drake: cannot find file or directory: /mnt/data/datafiles/Drakefiles/./Drakefile (use --help for documentation)
+2017-04-30 22:02:32,642 ERROR drake: cannot find file or directory: /mnt/data/datafiles/Drakefiles/./Drakefile (use --help for documentation)
+2017-04-30 22:03:13,045 ERROR drake: cannot find file or directory: /mnt/data/datafiles/Drakefiles/./Drakefile (use --help for documentation)
+2017-04-30 22:04:04,456 INFO Running 16 steps with concurrence of 1...
+2017-04-30 22:04:04,480 INFO 
+2017-04-30 22:04:04,480 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-04-30 22:07:44,383 INFO 
+2017-04-30 22:07:44,383 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-04-30 22:16:05,372 INFO 
+2017-04-30 22:16:05,373 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-04-30 22:28:24,854 INFO 
+2017-04-30 22:28:24,855 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-04-30 22:36:41,255 ERROR drake: cannot find file or directory: /mnt/data/datafiles/Drakefiles/./Drakefile (use --help for documentation)
+2017-04-30 22:37:13,851 INFO Running 16 steps with concurrence of 1...
+2017-04-30 22:37:13,876 INFO 
+2017-04-30 22:37:13,876 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-04-30 22:40:56,401 INFO 
+2017-04-30 22:40:56,401 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-04-30 22:49:31,839 INFO 
+2017-04-30 22:49:31,840 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-04-30 23:02:16,261 INFO 
+2017-04-30 23:02:16,261 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-04-30 23:07:48,459 INFO 
+2017-04-30 23:07:48,460 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-04-30 23:12:01,867 INFO 
+2017-04-30 23:12:01,867 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-04-30 23:16:08,149 INFO 
+2017-04-30 23:16:08,150 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-04-30 23:20:33,580 INFO 
+2017-04-30 23:20:33,580 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-04-30 23:32:24,904 INFO 
+2017-04-30 23:32:24,904 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-04-30 23:36:49,050 INFO 
+2017-04-30 23:36:49,051 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-04-30 23:41:03,084 INFO 
+2017-04-30 23:41:03,084 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-04-30 23:45:31,715 INFO 
+2017-04-30 23:45:31,715 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-04-30 23:49:41,082 INFO 
+2017-04-30 23:49:41,082 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-04-30 23:54:15,813 INFO 
+2017-04-30 23:54:15,814 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-01 00:06:04,163 INFO 
+2017-05-01 00:06:04,164 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-01 00:10:33,533 INFO 
+2017-05-01 00:10:33,533 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-01 00:16:33,704 INFO Done (0 steps run).
+2017-05-01 00:16:33,707 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\nsed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-934ddffb5ba7e57329dfeb130bd02130.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@4aba63b5> #<BufferedWriter java.io.BufferedWriter@15f702a6>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@153d2c40> #<BufferedWriter java.io.BufferedWriter@33120942>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-05-08 11:36:27,279 ERROR drake: target not found: sam2bam
+2017-05-08 11:37:24,212 INFO Nothing to do.
+2017-05-08 11:37:56,992 INFO Aborted.
+2017-05-09 08:14:09,528 INFO Running 16 steps with concurrence of 1...
+2017-05-09 08:14:09,560 INFO 
+2017-05-09 08:14:09,560 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-09 08:17:56,199 INFO 
+2017-05-09 08:17:56,199 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-09 08:26:33,540 INFO 
+2017-05-09 08:26:33,541 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-09 08:38:53,490 INFO 
+2017-05-09 08:38:53,490 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-09 08:44:13,550 INFO 
+2017-05-09 08:44:13,550 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-09 08:48:22,605 INFO 
+2017-05-09 08:48:22,606 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-09 08:52:40,673 INFO 
+2017-05-09 08:52:40,674 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-09 08:56:56,457 INFO 
+2017-05-09 08:56:56,458 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-09 09:09:01,047 INFO 
+2017-05-09 09:09:01,047 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-09 09:13:25,727 INFO 
+2017-05-09 09:13:25,727 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-09 09:17:34,406 INFO 
+2017-05-09 09:17:34,406 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-09 09:21:37,998 INFO 
+2017-05-09 09:21:37,999 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-09 09:25:33,507 INFO 
+2017-05-09 09:25:33,507 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-09 09:30:07,490 INFO 
+2017-05-09 09:30:07,490 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-09 09:41:27,839 INFO 
+2017-05-09 09:41:27,840 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-09 09:45:47,493 INFO 
+2017-05-09 09:45:47,494 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-09 09:51:28,295 INFO Done (0 steps run).
+2017-05-09 09:51:28,298 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\nsed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-934ddffb5ba7e57329dfeb130bd02130.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@48ff3f5> #<BufferedWriter java.io.BufferedWriter@75b74b0a>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@40439e44> #<BufferedWriter java.io.BufferedWriter@58e5f306>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-05-14 23:49:33,355 INFO Running 16 steps with concurrence of 1...
+2017-05-14 23:49:33,378 INFO 
+2017-05-14 23:49:33,378 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-14 23:52:32,219 INFO 
+2017-05-14 23:52:32,220 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-14 23:59:45,194 INFO 
+2017-05-14 23:59:45,195 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-15 00:11:07,536 INFO 
+2017-05-15 00:11:07,536 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-15 00:16:04,515 INFO Running 16 steps with concurrence of 1...
+2017-05-15 00:16:04,538 INFO 
+2017-05-15 00:16:04,538 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-15 00:18:57,243 INFO 
+2017-05-15 00:18:57,244 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-15 00:25:59,666 INFO 
+2017-05-15 00:25:59,667 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-15 00:37:21,207 INFO 
+2017-05-15 00:37:21,207 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-15 00:41:24,450 INFO 
+2017-05-15 00:41:24,450 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-15 00:44:22,504 INFO 
+2017-05-15 00:44:22,505 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-15 00:47:24,660 INFO 
+2017-05-15 00:47:24,661 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-15 00:50:42,964 INFO 
+2017-05-15 00:50:42,965 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-15 01:01:59,570 INFO 
+2017-05-15 01:01:59,570 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-15 01:05:29,216 INFO 
+2017-05-15 01:05:29,217 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-15 01:08:26,292 INFO 
+2017-05-15 01:08:26,293 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-15 01:11:21,257 INFO 
+2017-05-15 01:11:21,257 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-15 01:14:11,790 INFO 
+2017-05-15 01:14:11,791 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-15 01:17:29,815 INFO 
+2017-05-15 01:17:29,815 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-15 01:27:36,273 INFO 
+2017-05-15 01:27:36,273 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-15 01:30:56,973 INFO 
+2017-05-15 01:30:56,974 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-15 01:35:41,873 INFO Done (0 steps run).
+2017-05-15 01:35:41,876 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\nsed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-934ddffb5ba7e57329dfeb130bd02130.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@4f76f8e1> #<BufferedWriter java.io.BufferedWriter@3efe3366>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@5679646c> #<BufferedWriter java.io.BufferedWriter@73fbf985>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-05-15 01:36:20,532 INFO Running 16 steps with concurrence of 1...
+2017-05-15 01:36:20,556 INFO 
+2017-05-15 01:36:20,556 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-15 01:40:03,841 INFO 
+2017-05-15 01:40:03,841 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-15 01:48:17,942 INFO 
+2017-05-15 01:48:17,943 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-15 02:00:34,085 INFO 
+2017-05-15 02:00:34,085 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-15 02:05:19,549 INFO 
+2017-05-15 02:05:19,549 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-15 02:09:18,904 INFO 
+2017-05-15 02:09:18,905 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-15 02:13:08,337 INFO 
+2017-05-15 02:13:08,338 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-15 02:17:16,282 INFO 
+2017-05-15 02:17:16,283 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-15 02:29:26,601 INFO 
+2017-05-15 02:29:26,602 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-15 02:33:34,529 INFO 
+2017-05-15 02:33:34,529 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-15 02:37:36,242 INFO 
+2017-05-15 02:37:36,242 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-15 02:41:37,981 INFO 
+2017-05-15 02:41:37,982 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-15 02:45:27,766 INFO 
+2017-05-15 02:45:27,766 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-15 02:49:49,442 INFO 
+2017-05-15 02:49:49,443 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-15 03:01:17,691 INFO 
+2017-05-15 03:01:17,692 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-15 03:05:44,530 INFO 
+2017-05-15 03:05:44,530 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-15 03:11:28,355 INFO Done (0 steps run).
+2017-05-15 03:11:28,359 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 127 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\nsed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 127", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-934ddffb5ba7e57329dfeb130bd02130.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@96da449> #<BufferedWriter java.io.BufferedWriter@6f89b4f>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@64394ee8> #<BufferedWriter java.io.BufferedWriter@73da1918>]}, :exit-code 127}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-05-28 22:02:25,862 INFO Running 128 steps with concurrence of 1...
+2017-05-28 22:02:25,920 INFO 
+2017-05-28 22:02:25,920 INFO --- 1. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:02:50,612 INFO --- 1: %trim <- %pear -> done in 24.69s
+2017-05-28 22:02:50,617 INFO 
+2017-05-28 22:02:50,617 INFO --- 55. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:04:30,944 INFO Running 128 steps with concurrence of 1...
+2017-05-28 22:04:31,000 INFO 
+2017-05-28 22:04:31,000 INFO --- 1. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:04:54,993 INFO --- 1: %trim <- %pear -> done in 23.99s
+2017-05-28 22:04:54,998 INFO 
+2017-05-28 22:04:54,998 INFO --- 55. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:06:34,483 INFO --- 55: %trim <- %pear -> done in 99.48s
+2017-05-28 22:06:34,485 INFO 
+2017-05-28 22:06:34,485 INFO --- 46. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:15:48,843 INFO --- 46: %trim <- %pear -> done in 554.36s
+2017-05-28 22:15:48,845 INFO 
+2017-05-28 22:15:48,845 INFO --- 136. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:22:42,895 INFO Running 128 steps with concurrence of 1...
+2017-05-28 22:22:42,942 INFO 
+2017-05-28 22:22:42,942 INFO --- 1. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:23:06,953 INFO --- 1: %trim <- %pear -> done in 24.01s
+2017-05-28 22:23:06,957 INFO 
+2017-05-28 22:23:06,957 INFO --- 55. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:24:46,804 INFO --- 55: %trim <- %pear -> done in 99.85s
+2017-05-28 22:24:46,805 INFO 
+2017-05-28 22:24:46,805 INFO --- 46. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:33:58,322 INFO --- 46: %trim <- %pear -> done in 551.52s
+2017-05-28 22:33:58,324 INFO 
+2017-05-28 22:33:58,324 INFO --- 136. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:44:55,146 INFO --- 136: %trim <- %pear -> done in 656.82s
+2017-05-28 22:44:55,148 INFO 
+2017-05-28 22:44:55,148 INFO --- 91. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:48:35,816 INFO --- 91: %trim <- %pear -> done in 220.67s
+2017-05-28 22:48:35,817 INFO 
+2017-05-28 22:48:35,817 INFO --- 109. Running (forced (via tag)): %trim <- %pear
+2017-05-28 22:57:21,293 INFO --- 109: %trim <- %pear -> done in 525.47s
+2017-05-28 22:57:21,294 INFO 
+2017-05-28 22:57:21,294 INFO --- 118. Running (forced (via tag)): %trim <- %pear
+2017-05-28 23:17:00,418 INFO --- 118: %trim <- %pear -> done in 1179.12s
+2017-05-28 23:17:00,419 INFO 
+2017-05-28 23:17:00,420 INFO --- 100. Running (forced (via tag)): %trim <- %pear
+2017-05-28 23:24:29,725 INFO --- 100: %trim <- %pear -> done in 449.30s
+2017-05-28 23:24:29,727 INFO 
+2017-05-28 23:24:29,727 INFO --- 28. Running (forced (via tag)): %trim <- %pear
+2017-05-28 23:39:19,631 INFO --- 28: %trim <- %pear -> done in 889.89s
+2017-05-28 23:39:19,633 INFO 
+2017-05-28 23:39:19,633 INFO --- 64. Running (forced (via tag)): %trim <- %pear
+2017-05-29 00:10:23,248 INFO --- 64: %trim <- %pear -> done in 1863.61s
+2017-05-29 00:10:23,251 INFO 
+2017-05-29 00:10:23,251 INFO --- 127. Running (forced (via tag)): %trim <- %pear
+2017-05-29 00:17:25,341 INFO --- 127: %trim <- %pear -> done in 422.09s
+2017-05-29 00:17:25,343 INFO 
+2017-05-29 00:17:25,343 INFO --- 82. Running (forced (via tag)): %trim <- %pear
+2017-05-29 00:25:35,346 INFO --- 82: %trim <- %pear -> done in 490.00s
+2017-05-29 00:25:35,347 INFO 
+2017-05-29 00:25:35,347 INFO --- 19. Running (forced (via tag)): %trim <- %pear
+2017-05-29 00:56:22,651 INFO --- 19: %trim <- %pear -> done in 1847.30s
+2017-05-29 00:56:22,653 INFO 
+2017-05-29 00:56:22,653 INFO --- 73. Running (forced (via tag)): %trim <- %pear
+2017-05-29 00:58:18,924 INFO --- 73: %trim <- %pear -> done in 116.27s
+2017-05-29 00:58:18,926 INFO 
+2017-05-29 00:58:18,926 INFO --- 10. Running (forced (via tag)): %trim <- %pear
+2017-05-29 01:20:52,608 INFO --- 10: %trim <- %pear -> done in 1353.68s
+2017-05-29 01:20:52,610 INFO 
+2017-05-29 01:20:52,610 INFO --- 37. Running (forced (via tag)): %trim <- %pear
+2017-05-29 01:32:59,319 INFO --- 37: %trim <- %pear -> done in 724.72s
+2017-05-29 01:32:59,321 INFO 
+2017-05-29 01:32:59,321 INFO --- 2. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam <- %trim
+2017-05-29 01:33:13,958 INFO --- 2: /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam <- %trim -> done in 14.64s
+2017-05-29 01:33:13,960 INFO 
+2017-05-29 01:33:13,960 INFO --- 3. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam <- /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam
+2017-05-29 01:33:14,916 INFO --- 3: /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam <- /mnt/data/datafiles/505-M/505-M_concensus/bbmap_output.sam -> done in 0.96s
+2017-05-29 01:33:14,918 INFO 
+2017-05-29 01:33:14,918 INFO --- 4. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam <- /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam
+2017-05-29 01:33:15,680 INFO --- 4: /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam <- /mnt/data/datafiles/505-M/505-M_concensus/sam2.bam -> done in 0.76s
+2017-05-29 01:33:15,681 INFO 
+2017-05-29 01:33:15,682 INFO --- 5. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-M/505-M_concensus/metrics_picard <- /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam
+2017-05-29 01:33:41,771 INFO --- 5: /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-M/505-M_concensus/metrics_picard <- /mnt/data/datafiles/505-M/505-M_concensus/sorted.bam -> done in 26.09s
+2017-05-29 01:33:41,772 INFO 
+2017-05-29 01:33:41,773 INFO --- 6. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/mpileup <- /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam
+2017-05-29 01:33:42,203 INFO --- 6: /mnt/data/datafiles/505-M/505-M_concensus/mpileup <- /mnt/data/datafiles/505-M/505-M_concensus/duplicates_removed.bam -> done in 0.43s
+2017-05-29 01:33:42,206 INFO 
+2017-05-29 01:33:42,206 INFO --- 7. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/variants <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-29 01:33:45,704 INFO --- 7: /mnt/data/datafiles/505-M/505-M_concensus/variants <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup -> done in 3.50s
+2017-05-29 01:33:45,705 INFO 
+2017-05-29 01:33:45,705 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-29 01:37:46,321 INFO 
+2017-05-29 01:37:46,321 INFO --- 11. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam <- %trim
+2017-05-29 01:42:30,255 INFO --- 11: /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam <- %trim -> done in 283.93s
+2017-05-29 01:42:30,257 INFO 
+2017-05-29 01:42:30,257 INFO --- 12. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam
+2017-05-29 01:48:07,780 INFO --- 12: /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/bbmap_output.sam -> done in 337.45s
+2017-05-29 01:48:07,782 INFO 
+2017-05-29 01:48:07,782 INFO --- 13. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam
+2017-05-29 01:55:14,014 INFO --- 13: /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sam2.bam -> done in 426.23s
+2017-05-29 01:55:14,015 INFO 
+2017-05-29 01:55:14,015 INFO --- 14. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-Pa/505-Pa_concensus/metrics_picard <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam
+2017-05-29 02:00:07,985 INFO --- 14: /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/505-Pa/505-Pa_concensus/metrics_picard <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/sorted.bam -> done in 293.97s
+2017-05-29 02:00:07,987 INFO 
+2017-05-29 02:00:07,987 INFO --- 15. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam
+2017-05-29 02:06:39,755 INFO --- 15: /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/duplicates_removed.bam -> done in 391.77s
+2017-05-29 02:06:39,757 INFO 
+2017-05-29 02:06:39,757 INFO --- 16. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/variants <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-29 02:07:27,636 INFO --- 16: /mnt/data/datafiles/505-Pa/505-Pa_concensus/variants <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup -> done in 47.88s
+2017-05-29 02:07:27,637 INFO 
+2017-05-29 02:07:27,637 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-29 02:12:31,741 INFO 
+2017-05-29 02:12:31,742 INFO --- 20. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam <- %trim
+2017-05-29 02:18:17,056 INFO --- 20: /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam <- %trim -> done in 345.31s
+2017-05-29 02:18:17,057 INFO 
+2017-05-29 02:18:17,057 INFO --- 21. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam
+2017-05-29 02:25:43,110 INFO --- 21: /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/bbmap_output.sam -> done in 446.05s
+2017-05-29 02:25:43,111 INFO 
+2017-05-29 02:25:43,112 INFO --- 22. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam
+2017-05-29 02:35:03,328 INFO --- 22: /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sam2.bam -> done in 560.22s
+2017-05-29 02:35:03,331 INFO 
+2017-05-29 02:35:03,331 INFO --- 23. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pb/519-Pb_concensus/metrics_picard <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam
+2017-05-29 02:44:41,387 INFO --- 23: /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pb/519-Pb_concensus/metrics_picard <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/sorted.bam -> done in 578.06s
+2017-05-29 02:44:41,390 INFO 
+2017-05-29 02:44:41,390 INFO --- 24. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam
+2017-05-29 03:11:27,458 INFO --- 24: /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/duplicates_removed.bam -> done in 1606.07s
+2017-05-29 03:11:27,460 INFO 
+2017-05-29 03:11:27,460 INFO --- 25. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/variants <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-29 03:11:59,531 INFO --- 25: /mnt/data/datafiles/519-Pb/519-Pb_concensus/variants <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup -> done in 32.07s
+2017-05-29 03:11:59,533 INFO 
+2017-05-29 03:11:59,533 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-29 03:20:33,591 INFO 
+2017-05-29 03:20:33,591 INFO --- 29. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam <- %trim
+2017-05-29 03:23:46,557 INFO --- 29: /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam <- %trim -> done in 192.96s
+2017-05-29 03:23:46,558 INFO 
+2017-05-29 03:23:46,558 INFO --- 30. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam
+2017-05-29 03:27:35,627 INFO --- 30: /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/bbmap_output.sam -> done in 229.05s
+2017-05-29 03:27:35,629 INFO 
+2017-05-29 03:27:35,629 INFO --- 31. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam
+2017-05-29 03:31:57,025 INFO --- 31: /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sam2.bam -> done in 261.40s
+2017-05-29 03:31:57,027 INFO 
+2017-05-29 03:31:57,027 INFO --- 32. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pc/519-Pc_concensus/metrics_picard <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam
+2017-05-29 03:35:04,539 INFO --- 32: /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pc/519-Pc_concensus/metrics_picard <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/sorted.bam -> done in 187.51s
+2017-05-29 03:35:04,540 INFO 
+2017-05-29 03:35:04,540 INFO --- 33. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam
+2017-05-29 03:36:58,717 INFO --- 33: /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/duplicates_removed.bam -> done in 114.18s
+2017-05-29 03:36:58,719 INFO 
+2017-05-29 03:36:58,719 INFO --- 34. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/variants <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-29 03:37:37,473 INFO --- 34: /mnt/data/datafiles/519-Pc/519-Pc_concensus/variants <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup -> done in 38.75s
+2017-05-29 03:37:37,475 INFO 
+2017-05-29 03:37:37,475 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-29 03:42:11,074 INFO 
+2017-05-29 03:42:11,075 INFO --- 38. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam <- %trim
+2017-05-29 03:44:40,791 INFO --- 38: /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam <- %trim -> done in 149.71s
+2017-05-29 03:44:40,792 INFO 
+2017-05-29 03:44:40,792 INFO --- 39. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam
+2017-05-29 03:47:24,525 INFO --- 39: /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/bbmap_output.sam -> done in 163.68s
+2017-05-29 03:47:24,526 INFO 
+2017-05-29 03:47:24,526 INFO --- 40. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam
+2017-05-29 03:50:31,159 INFO --- 40: /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sam2.bam -> done in 186.63s
+2017-05-29 03:50:31,160 INFO 
+2017-05-29 03:50:31,160 INFO --- 41. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pd/519-Pd_concensus/metrics_picard <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam
+2017-05-29 03:52:49,074 INFO --- 41: /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-Pd/519-Pd_concensus/metrics_picard <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/sorted.bam -> done in 137.91s
+2017-05-29 03:52:49,075 INFO 
+2017-05-29 03:52:49,075 INFO --- 42. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam
+2017-05-29 03:53:00,737 INFO --- 42: /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/duplicates_removed.bam -> done in 11.66s
+2017-05-29 03:53:00,738 INFO 
+2017-05-29 03:53:00,738 INFO --- 43. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/variants <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-29 03:53:15,902 INFO --- 43: /mnt/data/datafiles/519-Pd/519-Pd_concensus/variants <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup -> done in 15.16s
+2017-05-29 03:53:15,903 INFO 
+2017-05-29 03:53:15,904 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-29 03:57:11,578 INFO 
+2017-05-29 03:57:11,578 INFO --- 47. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam <- %trim
+2017-05-29 03:59:19,329 INFO --- 47: /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam <- %trim -> done in 127.75s
+2017-05-29 03:59:19,331 INFO 
+2017-05-29 03:59:19,331 INFO --- 48. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam
+2017-05-29 04:01:31,696 INFO --- 48: /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/bbmap_output.sam -> done in 132.32s
+2017-05-29 04:01:31,698 INFO 
+2017-05-29 04:01:31,698 INFO --- 49. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam
+2017-05-29 04:04:02,967 INFO --- 49: /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sam2.bam -> done in 151.27s
+2017-05-29 04:04:02,968 INFO 
+2017-05-29 04:04:02,968 INFO --- 50. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-S1a/519-S1a_concensus/metrics_picard <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam
+2017-05-29 04:05:57,695 INFO --- 50: /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/519-S1a/519-S1a_concensus/metrics_picard <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/sorted.bam -> done in 114.72s
+2017-05-29 04:05:57,696 INFO 
+2017-05-29 04:05:57,696 INFO --- 51. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam
+2017-05-29 04:06:02,054 INFO --- 51: /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/duplicates_removed.bam -> done in 4.36s
+2017-05-29 04:06:02,056 INFO 
+2017-05-29 04:06:02,056 INFO --- 52. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/variants <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-29 04:06:14,998 INFO --- 52: /mnt/data/datafiles/519-S1a/519-S1a_concensus/variants <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup -> done in 12.94s
+2017-05-29 04:06:14,999 INFO 
+2017-05-29 04:06:14,999 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-29 04:09:57,575 INFO 
+2017-05-29 04:09:57,576 INFO --- 56. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam <- %trim
+2017-05-29 04:10:30,582 INFO --- 56: /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam <- %trim -> done in 33.01s
+2017-05-29 04:10:30,583 INFO 
+2017-05-29 04:10:30,583 INFO --- 57. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam
+2017-05-29 04:10:48,834 INFO --- 57: /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/bbmap_output.sam -> done in 18.05s
+2017-05-29 04:10:48,836 INFO 
+2017-05-29 04:10:48,836 INFO --- 58. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam
+2017-05-29 04:11:06,676 INFO --- 58: /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sam2.bam -> done in 17.84s
+2017-05-29 04:11:06,678 INFO 
+2017-05-29 04:11:06,679 INFO --- 59. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pa/520-Pa_concensus/metrics_picard <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam
+2017-05-29 04:11:39,366 INFO --- 59: /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pa/520-Pa_concensus/metrics_picard <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/sorted.bam -> done in 32.69s
+2017-05-29 04:11:39,367 INFO 
+2017-05-29 04:11:39,367 INFO --- 60. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam
+2017-05-29 04:12:18,290 INFO --- 60: /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/duplicates_removed.bam -> done in 38.92s
+2017-05-29 04:12:18,292 INFO 
+2017-05-29 04:12:18,292 INFO --- 61. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/variants <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-29 04:12:37,797 INFO --- 61: /mnt/data/datafiles/520-Pa/520-Pa_concensus/variants <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup -> done in 19.50s
+2017-05-29 04:12:37,798 INFO 
+2017-05-29 04:12:37,799 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-29 04:16:26,444 INFO 
+2017-05-29 04:16:26,444 INFO --- 65. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam <- %trim
+2017-05-29 04:22:26,750 INFO --- 65: /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam <- %trim -> done in 360.31s
+2017-05-29 04:22:26,751 INFO 
+2017-05-29 04:22:26,752 INFO --- 66. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam
+2017-05-29 04:29:45,873 INFO --- 66: /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/bbmap_output.sam -> done in 439.07s
+2017-05-29 04:29:45,875 INFO 
+2017-05-29 04:29:45,875 INFO --- 67. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam
+2017-05-29 04:39:05,032 INFO --- 67: /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sam2.bam -> done in 559.15s
+2017-05-29 04:39:05,033 INFO 
+2017-05-29 04:39:05,034 INFO --- 68. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pb/520-Pb_concensus/metrics_picard <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam
+2017-05-29 04:47:25,058 INFO --- 68: /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pb/520-Pb_concensus/metrics_picard <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/sorted.bam -> done in 500.02s
+2017-05-29 04:47:25,060 INFO 
+2017-05-29 04:47:25,060 INFO --- 69. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam
+2017-05-29 05:09:38,062 INFO --- 69: /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/duplicates_removed.bam -> done in 1333.00s
+2017-05-29 05:09:38,065 INFO 
+2017-05-29 05:09:38,065 INFO --- 70. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/variants <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-29 05:10:30,777 INFO --- 70: /mnt/data/datafiles/520-Pb/520-Pb_concensus/variants <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup -> done in 52.71s
+2017-05-29 05:10:30,778 INFO 
+2017-05-29 05:10:30,778 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-29 05:18:39,314 INFO 
+2017-05-29 05:18:39,315 INFO --- 74. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam <- %trim
+2017-05-29 05:19:20,041 INFO --- 74: /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam <- %trim -> done in 40.73s
+2017-05-29 05:19:20,043 INFO 
+2017-05-29 05:19:20,043 INFO --- 75. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam
+2017-05-29 05:19:46,919 INFO --- 75: /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/bbmap_output.sam -> done in 26.80s
+2017-05-29 05:19:46,920 INFO 
+2017-05-29 05:19:46,921 INFO --- 76. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam
+2017-05-29 05:20:07,911 INFO --- 76: /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sam2.bam -> done in 20.99s
+2017-05-29 05:20:07,912 INFO 
+2017-05-29 05:20:07,912 INFO --- 77. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pc/520-Pc_concensus/metrics_picard <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam
+2017-05-29 05:20:47,368 INFO --- 77: /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-Pc/520-Pc_concensus/metrics_picard <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/sorted.bam -> done in 39.45s
+2017-05-29 05:20:47,369 INFO 
+2017-05-29 05:20:47,369 INFO --- 78. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam
+2017-05-29 05:21:36,022 INFO --- 78: /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/duplicates_removed.bam -> done in 48.65s
+2017-05-29 05:21:36,023 INFO 
+2017-05-29 05:21:36,023 INFO --- 79. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/variants <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-29 05:21:59,869 INFO --- 79: /mnt/data/datafiles/520-Pc/520-Pc_concensus/variants <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup -> done in 23.84s
+2017-05-29 05:21:59,871 INFO 
+2017-05-29 05:21:59,871 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-29 05:25:52,353 INFO 
+2017-05-29 05:25:52,354 INFO --- 83. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam <- %trim
+2017-05-29 05:26:59,775 INFO --- 83: /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam <- %trim -> done in 67.42s
+2017-05-29 05:26:59,776 INFO 
+2017-05-29 05:26:59,776 INFO --- 84. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam
+2017-05-29 05:27:54,834 INFO --- 84: /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/bbmap_output.sam -> done in 55.06s
+2017-05-29 05:27:54,835 INFO 
+2017-05-29 05:27:54,835 INFO --- 85. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam
+2017-05-29 05:28:50,747 INFO --- 85: /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam <- /mnt/data/datafiles/520-S1/520-S1_concensus/sam2.bam -> done in 55.91s
+2017-05-29 05:28:50,751 INFO 
+2017-05-29 05:28:50,751 INFO --- 86. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1/520-S1_concensus/metrics_picard <- /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam
+2017-05-29 05:29:44,062 INFO --- 86: /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1/520-S1_concensus/metrics_picard <- /mnt/data/datafiles/520-S1/520-S1_concensus/sorted.bam -> done in 53.31s
+2017-05-29 05:29:44,063 INFO 
+2017-05-29 05:29:44,064 INFO --- 87. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup <- /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam
+2017-05-29 05:29:49,385 INFO --- 87: /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup <- /mnt/data/datafiles/520-S1/520-S1_concensus/duplicates_removed.bam -> done in 5.32s
+2017-05-29 05:29:49,386 INFO 
+2017-05-29 05:29:49,386 INFO --- 88. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/variants <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-29 05:30:00,022 INFO --- 88: /mnt/data/datafiles/520-S1/520-S1_concensus/variants <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup -> done in 10.63s
+2017-05-29 05:30:00,024 INFO 
+2017-05-29 05:30:00,024 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-29 05:33:51,928 INFO 
+2017-05-29 05:33:51,928 INFO --- 92. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam <- %trim
+2017-05-29 05:34:21,506 INFO --- 92: /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam <- %trim -> done in 29.58s
+2017-05-29 05:34:21,507 INFO 
+2017-05-29 05:34:21,507 INFO --- 93. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam
+2017-05-29 05:34:37,316 INFO --- 93: /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/bbmap_output.sam -> done in 15.81s
+2017-05-29 05:34:37,317 INFO 
+2017-05-29 05:34:37,318 INFO --- 94. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam
+2017-05-29 05:34:48,276 INFO --- 94: /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sam2.bam -> done in 10.96s
+2017-05-29 05:34:48,277 INFO 
+2017-05-29 05:34:48,277 INFO --- 95. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1a/520-S1a_concensus/metrics_picard <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam
+2017-05-29 05:35:17,471 INFO --- 95: /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/520-S1a/520-S1a_concensus/metrics_picard <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/sorted.bam -> done in 29.19s
+2017-05-29 05:35:17,472 INFO 
+2017-05-29 05:35:17,472 INFO --- 96. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam
+2017-05-29 05:35:23,093 INFO --- 96: /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/duplicates_removed.bam -> done in 5.62s
+2017-05-29 05:35:23,095 INFO 
+2017-05-29 05:35:23,095 INFO --- 97. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/variants <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-29 05:35:39,485 INFO --- 97: /mnt/data/datafiles/520-S1a/520-S1a_concensus/variants <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup -> done in 16.39s
+2017-05-29 05:35:39,487 INFO 
+2017-05-29 05:35:39,487 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-29 05:39:38,123 INFO 
+2017-05-29 05:39:38,123 INFO --- 101. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam <- %trim
+2017-05-29 05:40:19,385 INFO --- 101: /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam <- %trim -> done in 41.26s
+2017-05-29 05:40:19,387 INFO 
+2017-05-29 05:40:19,387 INFO --- 102. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam <- /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam
+2017-05-29 05:40:49,734 INFO --- 102: /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam <- /mnt/data/datafiles/579-M/579-M_concensus/bbmap_output.sam -> done in 30.35s
+2017-05-29 05:40:49,735 INFO 
+2017-05-29 05:40:49,736 INFO --- 103. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam <- /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam
+2017-05-29 05:41:10,309 INFO --- 103: /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam <- /mnt/data/datafiles/579-M/579-M_concensus/sam2.bam -> done in 20.57s
+2017-05-29 05:41:10,310 INFO 
+2017-05-29 05:41:10,310 INFO --- 104. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-M/579-M_concensus/metrics_picard <- /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam
+2017-05-29 05:41:44,310 INFO --- 104: /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-M/579-M_concensus/metrics_picard <- /mnt/data/datafiles/579-M/579-M_concensus/sorted.bam -> done in 34.00s
+2017-05-29 05:41:44,311 INFO 
+2017-05-29 05:41:44,311 INFO --- 105. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/mpileup <- /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam
+2017-05-29 05:41:46,164 INFO --- 105: /mnt/data/datafiles/579-M/579-M_concensus/mpileup <- /mnt/data/datafiles/579-M/579-M_concensus/duplicates_removed.bam -> done in 1.85s
+2017-05-29 05:41:46,165 INFO 
+2017-05-29 05:41:46,165 INFO --- 106. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/variants <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-29 05:41:49,367 INFO --- 106: /mnt/data/datafiles/579-M/579-M_concensus/variants <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup -> done in 3.20s
+2017-05-29 05:41:49,368 INFO 
+2017-05-29 05:41:49,368 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-29 05:45:45,670 INFO 
+2017-05-29 05:45:45,671 INFO --- 110. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam <- %trim
+2017-05-29 05:47:34,975 INFO --- 110: /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam <- %trim -> done in 109.30s
+2017-05-29 05:47:34,976 INFO 
+2017-05-29 05:47:34,976 INFO --- 111. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam
+2017-05-29 05:49:28,548 INFO --- 111: /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/bbmap_output.sam -> done in 113.57s
+2017-05-29 05:49:28,549 INFO 
+2017-05-29 05:49:28,549 INFO --- 112. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam
+2017-05-29 05:51:46,675 INFO --- 112: /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sam2.bam -> done in 138.12s
+2017-05-29 05:51:46,676 INFO 
+2017-05-29 05:51:46,676 INFO --- 113. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pa/579-Pa_concensus/metrics_picard <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam
+2017-05-29 05:53:35,820 INFO --- 113: /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pa/579-Pa_concensus/metrics_picard <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/sorted.bam -> done in 109.14s
+2017-05-29 05:53:35,822 INFO 
+2017-05-29 05:53:35,822 INFO --- 114. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam
+2017-05-29 05:54:18,015 INFO --- 114: /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/duplicates_removed.bam -> done in 42.19s
+2017-05-29 05:54:18,017 INFO 
+2017-05-29 05:54:18,017 INFO --- 115. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/variants <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-29 05:54:37,794 INFO --- 115: /mnt/data/datafiles/579-Pa/579-Pa_concensus/variants <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup -> done in 19.78s
+2017-05-29 05:54:37,796 INFO 
+2017-05-29 05:54:37,796 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-29 05:58:54,056 INFO 
+2017-05-29 05:58:54,056 INFO --- 119. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam <- %trim
+2017-05-29 06:02:27,167 INFO --- 119: /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam <- %trim -> done in 213.11s
+2017-05-29 06:02:27,168 INFO 
+2017-05-29 06:02:27,169 INFO --- 120. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam
+2017-05-29 06:06:54,966 INFO --- 120: /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/bbmap_output.sam -> done in 267.80s
+2017-05-29 06:06:54,968 INFO 
+2017-05-29 06:06:54,968 INFO --- 121. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam
+2017-05-29 06:12:27,860 INFO --- 121: /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sam2.bam -> done in 332.89s
+2017-05-29 06:12:27,874 INFO 
+2017-05-29 06:12:27,874 INFO --- 122. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pb/579-Pb_concensus/metrics_picard <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam
+2017-05-29 06:18:27,935 INFO --- 122: /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-Pb/579-Pb_concensus/metrics_picard <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/sorted.bam -> done in 360.06s
+2017-05-29 06:18:27,937 INFO 
+2017-05-29 06:18:27,937 INFO --- 123. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam
+2017-05-29 06:36:51,402 INFO --- 123: /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/duplicates_removed.bam -> done in 1103.47s
+2017-05-29 06:36:51,404 INFO 
+2017-05-29 06:36:51,404 INFO --- 124. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/variants <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-29 06:37:54,242 INFO --- 124: /mnt/data/datafiles/579-Pb/579-Pb_concensus/variants <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup -> done in 62.84s
+2017-05-29 06:37:54,243 INFO 
+2017-05-29 06:37:54,243 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-29 06:45:05,028 INFO 
+2017-05-29 06:45:05,029 INFO --- 128. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam <- %trim
+2017-05-29 06:46:39,310 INFO --- 128: /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam <- %trim -> done in 94.28s
+2017-05-29 06:46:39,312 INFO 
+2017-05-29 06:46:39,312 INFO --- 129. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam
+2017-05-29 06:48:31,677 INFO --- 129: /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/bbmap_output.sam -> done in 112.37s
+2017-05-29 06:48:31,679 INFO 
+2017-05-29 06:48:31,679 INFO --- 130. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam
+2017-05-29 06:50:19,270 INFO --- 130: /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sam2.bam -> done in 107.59s
+2017-05-29 06:50:19,272 INFO 
+2017-05-29 06:50:19,272 INFO --- 131. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1a/579-S1a_concensus/metrics_picard <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam
+2017-05-29 06:51:49,021 INFO --- 131: /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1a/579-S1a_concensus/metrics_picard <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/sorted.bam -> done in 89.75s
+2017-05-29 06:51:49,022 INFO 
+2017-05-29 06:51:49,023 INFO --- 132. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam
+2017-05-29 06:52:45,371 INFO --- 132: /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/duplicates_removed.bam -> done in 56.35s
+2017-05-29 06:52:45,372 INFO 
+2017-05-29 06:52:45,372 INFO --- 133. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/variants <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-29 06:53:11,402 INFO --- 133: /mnt/data/datafiles/579-S1a/579-S1a_concensus/variants <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup -> done in 26.03s
+2017-05-29 06:53:11,403 INFO 
+2017-05-29 06:53:11,403 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-29 06:57:11,703 INFO 
+2017-05-29 06:57:11,704 INFO --- 137. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam <- %trim
+2017-05-29 06:59:32,857 INFO --- 137: /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam <- %trim -> done in 141.15s
+2017-05-29 06:59:32,858 INFO 
+2017-05-29 06:59:32,859 INFO --- 138. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam
+2017-05-29 07:01:43,327 INFO --- 138: /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/bbmap_output.sam -> done in 130.47s
+2017-05-29 07:01:43,328 INFO 
+2017-05-29 07:01:43,328 INFO --- 139. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam
+2017-05-29 07:04:22,534 INFO --- 139: /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sam2.bam -> done in 159.21s
+2017-05-29 07:04:22,536 INFO 
+2017-05-29 07:04:22,536 INFO --- 140. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1b/579-S1b_concensus/metrics_picard <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam
+2017-05-29 07:06:36,554 INFO --- 140: /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam, /mnt/data/datafiles/579-S1b/579-S1b_concensus/metrics_picard <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/sorted.bam -> done in 134.02s
+2017-05-29 07:06:36,556 INFO 
+2017-05-29 07:06:36,556 INFO --- 141. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam
+2017-05-29 07:09:38,263 INFO --- 141: /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/duplicates_removed.bam -> done in 181.71s
+2017-05-29 07:09:38,264 INFO 
+2017-05-29 07:09:38,264 INFO --- 142. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/variants <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-29 07:10:35,400 INFO --- 142: /mnt/data/datafiles/579-S1b/579-S1b_concensus/variants <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup -> done in 57.14s
+2017-05-29 07:10:35,402 INFO 
+2017-05-29 07:10:35,402 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-29 07:15:15,635 INFO Done (112 steps run).
+2017-05-29 07:15:15,638 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 2 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\n;sed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats ;adds name \n", :msg "shell command failed with exit code 2", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-6e1a32c41f805291c0c50a7dcb491d6a.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@71491d25> #<BufferedWriter java.io.BufferedWriter@3cfe2b5d>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@4534f602> #<BufferedWriter java.io.BufferedWriter@403ef746>]}, :exit-code 2}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-05-29 11:24:53,354 INFO Running 16 steps with concurrence of 1...
+2017-05-29 11:24:53,380 INFO 
+2017-05-29 11:24:53,380 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-29 11:28:16,676 INFO 
+2017-05-29 11:28:16,676 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-29 11:33:31,141 INFO 
+2017-05-29 11:33:31,141 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-29 11:42:24,642 INFO 
+2017-05-29 11:42:24,642 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-29 11:46:51,888 INFO 
+2017-05-29 11:46:51,889 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-29 11:50:34,345 INFO Running 16 steps with concurrence of 1...
+2017-05-29 11:50:34,366 INFO 
+2017-05-29 11:50:34,367 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-29 11:54:06,997 INFO 
+2017-05-29 11:54:06,997 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-29 11:55:32,857 INFO Running 16 steps with concurrence of 1...
+2017-05-29 11:55:32,877 INFO 
+2017-05-29 11:55:32,877 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-29 11:59:15,536 INFO 
+2017-05-29 11:59:15,537 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-29 12:04:50,586 INFO 
+2017-05-29 12:04:50,587 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-29 12:13:44,609 INFO 
+2017-05-29 12:13:44,609 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-29 12:18:20,221 INFO 
+2017-05-29 12:18:20,221 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-29 12:23:03,751 INFO 
+2017-05-29 12:23:03,752 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-29 12:27:30,030 INFO 
+2017-05-29 12:27:30,030 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-29 12:32:11,184 INFO 
+2017-05-29 12:32:11,185 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-29 12:40:43,578 INFO 
+2017-05-29 12:40:43,579 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-29 12:44:55,931 INFO 
+2017-05-29 12:44:55,931 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-29 12:49:02,867 INFO 
+2017-05-29 12:49:02,867 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-29 12:53:20,657 INFO 
+2017-05-29 12:53:20,658 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-29 12:57:34,779 INFO 
+2017-05-29 12:57:34,780 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-29 13:02:07,181 INFO 
+2017-05-29 13:02:07,181 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-29 13:09:25,960 INFO 
+2017-05-29 13:09:25,960 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-29 13:14:05,555 INFO 
+2017-05-29 13:14:05,556 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-29 13:19:16,087 INFO Done (0 steps run).
+2017-05-29 13:19:16,091 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 2 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\n;sed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats adds name \n", :msg "shell command failed with exit code 2", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-f01686d2deb21ba185d0bcd50f9ccd06.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@d09eaa> #<BufferedWriter java.io.BufferedWriter@6e771c07>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@4735b7e3> #<BufferedWriter java.io.BufferedWriter@bde7cae>]}, :exit-code 2}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
+2017-05-30 12:17:52,338 INFO Running 16 steps with concurrence of 1...
+2017-05-30 12:17:52,361 INFO 
+2017-05-30 12:17:52,361 INFO --- 8. Running (forced): /mnt/data/datafiles/505-M/505-M_concensus/incstats <- /mnt/data/datafiles/505-M/505-M_concensus/mpileup
+2017-05-30 12:22:39,657 INFO 
+2017-05-30 12:22:39,658 INFO --- 17. Running (forced): /mnt/data/datafiles/505-Pa/505-Pa_concensus/incstats <- /mnt/data/datafiles/505-Pa/505-Pa_concensus/mpileup
+2017-05-30 12:27:40,264 INFO 
+2017-05-30 12:27:40,265 INFO --- 26. Running (forced): /mnt/data/datafiles/519-Pb/519-Pb_concensus/incstats <- /mnt/data/datafiles/519-Pb/519-Pb_concensus/mpileup
+2017-05-30 12:38:14,754 INFO 
+2017-05-30 12:38:14,754 INFO --- 35. Running (forced): /mnt/data/datafiles/519-Pc/519-Pc_concensus/incstats <- /mnt/data/datafiles/519-Pc/519-Pc_concensus/mpileup
+2017-05-30 12:42:16,780 INFO 
+2017-05-30 12:42:16,781 INFO --- 44. Running (forced): /mnt/data/datafiles/519-Pd/519-Pd_concensus/incstats <- /mnt/data/datafiles/519-Pd/519-Pd_concensus/mpileup
+2017-05-30 12:46:04,130 INFO 
+2017-05-30 12:46:04,130 INFO --- 53. Running (forced): /mnt/data/datafiles/519-S1a/519-S1a_concensus/incstats <- /mnt/data/datafiles/519-S1a/519-S1a_concensus/mpileup
+2017-05-30 12:50:08,885 INFO 
+2017-05-30 12:50:08,885 INFO --- 62. Running (forced): /mnt/data/datafiles/520-Pa/520-Pa_concensus/incstats <- /mnt/data/datafiles/520-Pa/520-Pa_concensus/mpileup
+2017-05-30 12:54:20,969 INFO 
+2017-05-30 12:54:20,969 INFO --- 71. Running (forced): /mnt/data/datafiles/520-Pb/520-Pb_concensus/incstats <- /mnt/data/datafiles/520-Pb/520-Pb_concensus/mpileup
+2017-05-30 13:02:19,371 INFO 
+2017-05-30 13:02:19,372 INFO --- 80. Running (forced): /mnt/data/datafiles/520-Pc/520-Pc_concensus/incstats <- /mnt/data/datafiles/520-Pc/520-Pc_concensus/mpileup
+2017-05-30 13:06:06,048 INFO 
+2017-05-30 13:06:06,048 INFO --- 89. Running (forced): /mnt/data/datafiles/520-S1/520-S1_concensus/incstats <- /mnt/data/datafiles/520-S1/520-S1_concensus/mpileup
+2017-05-30 13:10:19,376 INFO 
+2017-05-30 13:10:19,376 INFO --- 98. Running (forced): /mnt/data/datafiles/520-S1a/520-S1a_concensus/incstats <- /mnt/data/datafiles/520-S1a/520-S1a_concensus/mpileup
+2017-05-30 13:13:57,635 INFO 
+2017-05-30 13:13:57,635 INFO --- 107. Running (forced): /mnt/data/datafiles/579-M/579-M_concensus/incstats <- /mnt/data/datafiles/579-M/579-M_concensus/mpileup
+2017-05-30 13:17:34,925 INFO 
+2017-05-30 13:17:34,925 INFO --- 116. Running (forced): /mnt/data/datafiles/579-Pa/579-Pa_concensus/incstats <- /mnt/data/datafiles/579-Pa/579-Pa_concensus/mpileup
+2017-05-30 13:21:23,898 INFO 
+2017-05-30 13:21:23,898 INFO --- 125. Running (forced): /mnt/data/datafiles/579-Pb/579-Pb_concensus/incstats <- /mnt/data/datafiles/579-Pb/579-Pb_concensus/mpileup
+2017-05-30 13:27:52,325 INFO 
+2017-05-30 13:27:52,325 INFO --- 134. Running (forced): /mnt/data/datafiles/579-S1a/579-S1a_concensus/incstats <- /mnt/data/datafiles/579-S1a/579-S1a_concensus/mpileup
+2017-05-30 13:32:07,589 INFO 
+2017-05-30 13:32:07,589 INFO --- 143. Running (forced): /mnt/data/datafiles/579-S1b/579-S1b_concensus/incstats <- /mnt/data/datafiles/579-S1b/579-S1b_concensus/mpileup
+2017-05-30 13:36:22,889 INFO Done (0 steps run).
+2017-05-30 13:36:22,896 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 2 {:file "java -jar $RUN/genome/genome/target/genome-0.1.1-SNAPSHOT-standalone.jar $INPUT /mnt/data/datafiles/incanted_files/505-M.inc /mnt/data/datafiles/concensus/refset.inc /mnt/data/datafiles/concensus/merlin.gff3 > /mnt/data/datafiles/505-M/505-M_concensus/incstats\n;sed -i '1i505-M' /mnt/data/datafiles/505-M/505-M_concensus/incstats adds name \n", :msg "shell command failed with exit code 2", :cmd ("/bin/bash" "/mnt/data/datafiles/Drakefiles/.drake/shell-f01686d2deb21ba185d0bcd50f9ccd06.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@33572796> #<BufferedWriter java.io.BufferedWriter@5c913086>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@5e8171cb> #<BufferedWriter java.io.BufferedWriter@2bac0635>]}, :exit-code 2}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__2343.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__4953.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__4964.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(java.base@9-internal/FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@9-internal/ThreadPoolExecutor.java:1158)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@9-internal/ThreadPoolExecutor.java:632)
+	at java.lang.Thread.run(java.base@9-internal/Thread.java:804)
+
